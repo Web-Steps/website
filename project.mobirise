@@ -690,6 +690,7 @@
           "_name": "slider1",
           "_customHTML": "<section class=\"carousel slide\" group=\"Sliders & Gallery\" plugins=\"YTPlayer,VimeoPlayer,SliderVideo,BootstrapCarouselSwipe\" data-interval=\"false\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"carousel\" title=\"Slides\" name=\"slides\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-carousel=\"slides\" class=\"full-screen\" mbr-carousel-embedded></div>\n\n</section>",
           "_cid": "qzOk9SkZ4b",
+          "_anchor": "slider1-o",
           "_protectedParams": [
             "slides__autoplay",
             "slides__autoplayInterval",
@@ -705,7 +706,7 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/mbr-1440x1080.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -714,11 +715,11 @@
                 "customStyle1": "display-1",
                 "customStyle2": "display-5",
                 "customStyle3": "display-4",
-                "title": "We Create your Design",
+                "title": "<br>We Create your Design",
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "Webdesign • Logodesign • Corporatedesign • Printdesign",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn  display-4 btn-warning-outline\" href=\"index.html#gallery2-i\" data-toolbar=\"-mbrBtnMove\">Online&nbsp;</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Offline</a>",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn  display-4 btn-warning-outline\" href=\"index.html#gallery2-i\" data-toolbar=\"-mbrBtnMove\">Onlineun Offline&nbsp;</a> ",
                 "overlayOpacity": "0.1"
               },
               {
@@ -730,19 +731,19 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "customStyle1": "display-1",
-                "customStyle2": "display-5",
+                "customStyle2": "display-7",
                 "customStyle3": "display-4",
-                "title": "Web•design",
+                "title": "Web<br>design",
                 "overlay": true,
                 "contentAlign": "center",
-                "text": "Eine moderne Webseite muss vor allem eins sein<br>schnell • übersichtlich • günstig • kundenorietiert",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn  display-4 btn-warning\" href=\"index.html#features12-j\" data-toolbar=\"-mbrBtnMove\">Wir zeigen Ihnen das \"Wie\" und \"Warum\" !</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" href=\"https://search.google.com/test/mobile-friendly?utm_source=mft&amp;utm_medium=redirect&amp;utm_campaign=mft-redirect&amp;hl=de\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Testen Sie Ihre alte Seite auf Google</a>",
+                "text": "Eine moderne Webseite muss vor allem eins sein schnell • übersichtlich • günstig • kundenorietiert",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn  display-4 btn-warning\" href=\"index.html#features12-j\" data-toolbar=\"-mbrBtnMove\">Fragen sie uns</a> ",
                 "overlayOpacity": "0.5"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/logo3000-2000x1328.jpg",
                 "active": false,
-                "showButtons": true,
+                "showButtons": false,
                 "showText": true,
                 "showTitle": true,
                 "playVideo": false,
@@ -750,16 +751,16 @@
                 "customStyle1": "display-1",
                 "customStyle2": "display-5",
                 "customStyle3": "display-4",
-                "title": "Logo•design",
+                "title": "Logo<br>design<br>-",
                 "overlay": true,
                 "contentAlign": "center",
-                "text": "Das Firmen-Logo ist nach wie vor der wichtigste Punkt wenn es um&nbsp;<br>Ihre Firmendarstellung geht •&nbsp;Egal ob Online oder Offline ",
+                "text": "Das Firmen-Logo<br>der wichtigste Punkt bei der Firmendarstellung&nbsp;<br> ",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  display-4 btn-warning\" href=\"index.html#features12-j\" data-toolbar=\"-mbrBtnMove\">Wir zeigen Ihnen worauf es ankommt !</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" href=\"https://search.google.com/test/mobile-friendly?utm_source=mft&amp;utm_medium=redirect&amp;utm_campaign=mft-redirect&amp;hl=de\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Design oder Redesign • fragen Sie uns</a>",
-                "overlayOpacity": "0.5"
+                "overlayOpacity": "0.8"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/2017-10-25-19h59-42-1397x735.png",
-                "active": false,
+                "active": true,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -768,11 +769,11 @@
                 "customStyle1": "display-1",
                 "customStyle2": "display-5",
                 "customStyle3": "display-4",
-                "title": "Corporate•design",
+                "title": "Firmen<br>Design<br>",
                 "overlay": true,
                 "contentAlign": "center",
-                "text": "Strahlen Sie mit einem einheitlichen Look professionalität aus!<br><br>Firmenschilder • Webebanner • Flyer • Visitenkarten oder Kundengeschenke<br><br>Eine Firma • Ein Look<br><br>",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn  display-4 btn-warning\" href=\"index.html#features12-j\" data-toolbar=\"-mbrBtnMove\">Der Weg zum perfekten Unternehmensdesign !</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" href=\"https://search.google.com/test/mobile-friendly?utm_source=mft&amp;utm_medium=redirect&amp;utm_campaign=mft-redirect&amp;hl=de\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Natürlich sorgen wir auch für den Druck • Fragen Sie uns</a>",
+                "text": "Firmenschilder • Webebanner • Flyer • Visitenkarten und vieles mehr<br><br>",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn  display-4 btn-warning\" href=\"index.html#features12-j\" data-toolbar=\"-mbrBtnMove\">Jetzt starten</a> ",
                 "overlayOpacity": "0.5"
               },
               {
@@ -786,16 +787,15 @@
                 "customStyle1": "display-1",
                 "customStyle2": "display-5",
                 "customStyle3": "display-4",
-                "title": "Print•design",
+                "title": "Print<br>design",
                 "overlay": true,
                 "contentAlign": "center",
-                "text": "<br>Gerade beim Druck Ihrer Artikel kommt es auf die Qualität an&nbsp;<br>Wir bieten Ihnen alles aus einer Hand&nbsp;<br><br>",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn  display-4 btn-warning\" href=\"index.html#features12-j\" data-toolbar=\"-mbrBtnMove\">Wir gestalten ihre Druckaufträge !</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" href=\"https://search.google.com/test/mobile-friendly?utm_source=mft&amp;utm_medium=redirect&amp;utm_campaign=mft-redirect&amp;hl=de\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Mit unserer Erfahrung zum perfekten Ergebniss • Fragen Sie uns</a>",
+                "text": "<br>Wir bieten Ihnen alles aus einer Hand&nbsp;<br><br>",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn  display-4 btn-warning\" href=\"index.html#features12-j\" data-toolbar=\"-mbrBtnMove\">Fragen sie uns</a> ",
                 "overlayOpacity": "0.5"
               }
             ]
-          },
-          "_anchor": "slider1-o"
+          }
         },
         {
           "_styles": {
