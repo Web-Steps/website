@@ -3,7 +3,7 @@
     "name": "My Site",
     "currentPage": "index.html",
     "versionFirst": "4.0.14",
-    "uniqCompNum": 91,
+    "uniqCompNum": 92,
     "versionPublish": "4.3.5",
     "theme": {
       "name": "mobirise4",
@@ -711,8 +711,8 @@
             "slides__showBullets": false,
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/wallpaper2-1920x1080.png",
-                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/wallpaper1-1920x1080.png",
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -724,12 +724,12 @@
                 "title": "<br>We Create your Design",
                 "overlay": true,
                 "contentAlign": "center",
-                "text": "<br><br><br><br><br><br>",
+                "text": "",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  display-7 btn-white-outline\" href=\"index.html#features12-j\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-idea mbr-iconfont mbr-iconfont-btn\"></span>interessiert ?</a> ",
                 "overlayOpacity": "0"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/mbr-1547x1080.jpg",
+                "image": "@PROJECT_PATH@/assets/images/wallpaper1-1920x1080.png",
                 "active": false,
                 "showButtons": true,
                 "showText": true,
@@ -740,14 +740,14 @@
                 "customStyle2": "display-2",
                 "customStyle3": "display-7",
                 "title": "Webdesign",
-                "overlay": true,
+                "overlay": false,
                 "contentAlign": "center",
                 "text": "Machen auch Sie aus Ihrer alten Homepage\n<br>ein modernen Onlineauftritt <br>",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-warning-outline display-7\" href=\"page1.html#content5-11\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-idea mbr-iconfont mbr-iconfont-btn\"></span>weitere infos</a> ",
                 "overlayOpacity": "0.5"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/logo3000-2000x1328.jpg",
+                "image": "@PROJECT_PATH@/assets/images/wallpaper1-1920x1080.png",
                 "active": false,
                 "showButtons": true,
                 "showText": true,
@@ -758,15 +758,15 @@
                 "customStyle2": "display-2",
                 "customStyle3": "display-7",
                 "title": "Logodesign",
-                "overlay": true,
+                "overlay": false,
                 "contentAlign": "center",
                 "text": "Markenidentität schaffen und Professionalität vermitteln<br> ",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-warning-outline display-7\" href=\"page2.html#content5-1c\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-idea mbr-iconfont mbr-iconfont-btn\"></span>weitere Infos</a> ",
                 "overlayOpacity": "0.8"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/2017-10-25-19h59-42-1397x735.png",
-                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/wallpaper1-1920x1080.png",
+                "active": true,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -783,7 +783,7 @@
                 "overlayOpacity": "0.3"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/mbr-1-1620x1080.jpg",
+                "image": "@PROJECT_PATH@/assets/images/wallpaper1-1920x1080.png",
                 "active": false,
                 "showButtons": true,
                 "showText": true,
@@ -794,7 +794,7 @@
                 "customStyle2": "display-2",
                 "customStyle3": "display-7",
                 "title": "Printdesign",
-                "overlay": true,
+                "overlay": false,
                 "contentAlign": "center",
                 "text": "Wir bieten Ihnen alles aus einer Hand&nbsp;<br>",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-warning-outline display-7\" href=\"page4.html#content5-1k\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-idea mbr-iconfont mbr-iconfont-btn\"></span>Weitere Infos</a> ",
