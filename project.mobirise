@@ -731,7 +731,7 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn  display-7 btn-warning\" href=\"index.html#features12-j\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-idea mbr-iconfont mbr-iconfont-btn\"></span>interessiert ?</a> ",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn  display-7 btn-warning\" href=\"index.html#toggle2-3a\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-idea mbr-iconfont mbr-iconfont-btn\"></span>interessiert ?</a> ",
                 "overlayOpacity": "0.6",
                 "overlayColor": "#030303"
               },
