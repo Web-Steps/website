@@ -22,10 +22,10 @@ body {
 }
 .display-1 {
   font-family: 'Julius Sans One', sans-serif;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 4rem;
+  font-size: 5.6rem;
 }
 .display-2 {
   font-family: 'Julius Sans One', sans-serif;
@@ -62,9 +62,9 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 2rem;
-    font-size: calc( 1.525rem + (2.5 - 1.525) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.525rem + (2.5 - 1.525) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.8rem;
+    font-size: calc( 1.875rem + (3.5 - 1.875) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.875rem + (3.5 - 1.875) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 1.6rem;
@@ -1958,7 +1958,7 @@ body {
 }
 .cid-qz5DndLHb4 .mbr-section-title {
   text-align: center;
-  color: #767676;
+  color: #030303;
 }
 .cid-qz5DndLHb4 .mbr-section-subtitle B {
   color: #f7ed4a;
@@ -1970,7 +1970,7 @@ body {
   color: #ffffff;
 }
 .cid-qz5DndLHb4 .mbr-crt-title {
-  color: #767676;
+  color: #030303;
 }
 .cid-qzVhQK2dIi {
   padding-top: 30px;
@@ -2643,7 +2643,7 @@ body {
 .cid-qzS8s3iprJ {
   padding-top: 105px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/mbr-1440x1080.jpg");
+  background-image: url("../../../assets/images/wallpaper1-1920x1080.png");
 }
 .cid-qzS8s3iprJ H2 {
   color: #12ead2;
@@ -2683,6 +2683,9 @@ body {
   -webkit-flex-direction: column;
   flex-direction: column-reverse;
   -webkit-flex-direction: column-reverse;
+}
+.cid-qzScAIA6O8 .mbr-section-title {
+  color: #12ead2;
 }
 .cid-qzVGPu2Cj4 {
   padding-top: 30px;
@@ -3171,10 +3174,10 @@ body {
 .cid-qzS8s3iprJ {
   padding-top: 105px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/webstepsmedia-logo2-1-787x353.jpg");
+  background-image: url("../../../assets/images/wallpaper1-1920x1080.png");
 }
 .cid-qzS8s3iprJ H2 {
-  color: #f7ed4a;
+  color: #12ead2;
 }
 .cid-qzS8s3iprJ .mbr-section-subtitle {
   color: #ffffff;
@@ -3272,7 +3275,7 @@ body {
 .cid-qAI9CHLDNb {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-image: url("../../../assets/images/webstepsmedia-logo2-1-787x353.jpg");
+  background-image: url("../../../assets/images/wallpaper1-1920x1080.png");
 }
 .cid-qzUosbEuVP {
   padding-top: 60px;
@@ -3732,8 +3735,8 @@ body {
 }
 .cid-qzS8s3iprJ {
   padding-top: 105px;
-  padding-bottom: 90px;
-  background-image: url("../../../assets/images/2017-10-25-19h59-42-1397x735.png");
+  padding-bottom: 75px;
+  background-image: url("../../../assets/images/wallpaper1-1920x1080.png");
 }
 .cid-qzS8s3iprJ H2 {
   color: #12ead2;
@@ -3773,6 +3776,9 @@ body {
   -webkit-flex-direction: column;
   flex-direction: column-reverse;
   -webkit-flex-direction: column-reverse;
+}
+.cid-qzScAIA6O8 .mbr-section-title {
+  color: #12ead2;
 }
 .cid-qzVVGUH2EL {
   padding-top: 30px;
@@ -3819,11 +3825,14 @@ body {
 }
 .cid-qAjGg8kneG {
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
   background-image: url("../../../assets/images/jumbotron.jpg");
 }
 .cid-qAjGg8kneG .mbr-section-subtitle {
   color: #f7ed4a;
+}
+.cid-qAjGg8kneG H2 {
+  color: #12ead2;
 }
 .cid-qAjGrr8N9s {
   padding-top: 30px;
@@ -4333,7 +4342,7 @@ body {
   }
 }
 .cid-qzS8s3iprJ {
-  padding-top: 90px;
+  padding-top: 60px;
   padding-bottom: 60px;
   background-image: url("../../../assets/images/wallpaper1-1920x1080.png");
 }
@@ -4375,6 +4384,9 @@ body {
   -webkit-flex-direction: column;
   flex-direction: column-reverse;
   -webkit-flex-direction: column-reverse;
+}
+.cid-qzScAIA6O8 .mbr-section-title {
+  color: #12ead2;
 }
 .cid-qAj0vAM18V {
   padding-top: 60px;
@@ -4938,6 +4950,9 @@ body {
     width: 100% !important;
   }
 }
+.cid-qzUlyoTXDr .section-text DIV {
+  text-align: left;
+}
 .cid-qzUoDqSq6w {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -5006,7 +5021,7 @@ body {
   }
 }
 .cid-qzUoDqSq6w .copyright > p {
-  color: #f7ed4a;
+  color: #12ead2;
 }
 .cid-qzUoDqSq6w H5 {
   color: #12ead2;
