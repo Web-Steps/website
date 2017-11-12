@@ -1958,10 +1958,10 @@ body {
 }
 .cid-qz5DndLHb4 .mbr-section-title {
   text-align: center;
-  color: #ffffff;
+  color: #232323;
 }
 .cid-qz5DndLHb4 .mbr-section-subtitle B {
-  color: #030303;
+  color: #f7ed4a;
 }
 .cid-qz5DndLHb4 .mbr-section-subtitle DIV {
   color: #ffffff;
@@ -1979,6 +1979,9 @@ body {
 }
 .cid-qzVhQK2dIi .mbr-section-subtitle {
   color: #767676;
+}
+.cid-qzVhQK2dIi B {
+  color: #787324;
 }
 .cid-qzVukFS7VX {
   padding-top: 0px;
@@ -2002,6 +2005,9 @@ body {
   .cid-qzVukFS7VX .inner-container {
     width: 100% !important;
   }
+}
+.cid-qzVukFS7VX .section-text B {
+  color: #12ead2;
 }
 .cid-qzRDuyzFHd {
   padding-top: 30px;
@@ -2060,6 +2066,19 @@ body {
 }
 .cid-qzRDuyzFHd UL {
   text-align: center;
+}
+.cid-qAIt21fcIa {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #f7ed4a;
+}
+.cid-qAIt21fcIa .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-qAIxVmYJr2 {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-image: url("../../../assets/images/zuschnitt-1980x901.png");
 }
 .cid-qzUaht5ull {
   padding-top: 60px;
