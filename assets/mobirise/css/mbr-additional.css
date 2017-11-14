@@ -2221,12 +2221,12 @@ body {
 }
 .cid-qz5xvUqkb7 .navbar {
   padding: .5rem 0;
-  background: #030303;
+  background: #ffffff;
   transition: none;
   min-height: 77px;
 }
 .cid-qz5xvUqkb7 .navbar-dropdown.bg-color.transparent.opened {
-  background: #030303;
+  background: #ffffff;
 }
 .cid-qz5xvUqkb7 a {
   font-style: normal;
@@ -2308,7 +2308,7 @@ body {
   padding-bottom: 0;
 }
 .cid-qz5xvUqkb7 .dropdown .dropdown-menu {
-  background: #030303;
+  background: #ffffff;
   display: none;
   position: absolute;
   min-width: 5rem;
@@ -2602,10 +2602,12 @@ body {
 .cid-qzS8s3iprJ {
   padding-top: 105px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/wallpaper1-1920x1080.png");
 }
 .cid-qzS8s3iprJ H2 {
-  color: #12ead2;
+  color: #7f1933;
+}
+.cid-qzS8s3iprJ .mbr-section-subtitle {
+  color: #232323;
 }
 .cid-qzScAIA6O8 {
   padding-top: 45px;
@@ -2632,6 +2634,7 @@ body {
 }
 .cid-qzScAIA6O8 .mbr-section-subtitle {
   color: #767676;
+  text-align: center;
 }
 .cid-qzScAIA6O8 .mbr-text {
   color: #767676;
@@ -2649,7 +2652,7 @@ body {
 .cid-qzVGPu2Cj4 {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #2e2e2e;
+  background-color: #030303;
 }
 .cid-qzVGPu2Cj4 .line {
   background-color: #ffffff;
@@ -3133,13 +3136,15 @@ body {
 .cid-qzS8s3iprJ {
   padding-top: 105px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/wallpaper1-1920x1080.png");
 }
 .cid-qzS8s3iprJ H2 {
-  color: #12ead2;
+  color: #7f1933;
 }
 .cid-qzS8s3iprJ .mbr-section-subtitle {
   color: #ffffff;
+}
+.cid-qzS8s3iprJ .mbr-section-subtitle B {
+  color: #151313;
 }
 .cid-qzScAIA6O8 {
   padding-top: 45px;
@@ -3695,10 +3700,12 @@ body {
 .cid-qzS8s3iprJ {
   padding-top: 105px;
   padding-bottom: 75px;
-  background-image: url("../../../assets/images/wallpaper1-1920x1080.png");
 }
 .cid-qzS8s3iprJ H2 {
-  color: #12ead2;
+  color: #7f1933;
+}
+.cid-qzS8s3iprJ .mbr-section-subtitle {
+  color: #151313;
 }
 .cid-qzScAIA6O8 {
   padding-top: 45px;
@@ -4305,7 +4312,10 @@ body {
   padding-bottom: 60px;
 }
 .cid-qzS8s3iprJ H2 {
-  color: #12ead2;
+  color: #7f1933;
+}
+.cid-qzS8s3iprJ .mbr-section-subtitle {
+  color: #151313;
 }
 .cid-qzScAIA6O8 {
   padding-top: 45px;
