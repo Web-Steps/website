@@ -1,9 +1,9 @@
 {
   "settings": {
     "name": "My Site",
-    "currentPage": "index.html",
+    "currentPage": "page6.html",
     "versionFirst": "4.0.14",
-    "uniqCompNum": 174,
+    "uniqCompNum": 179,
     "versionPublish": "4.3.5",
     "theme": {
       "name": "mobirise4",
@@ -1283,7 +1283,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Webdesign",
-        "order": 2
+        "order": 1
       },
       "components": [
         {
@@ -1825,11 +1825,11 @@
           "_name": "content4",
           "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#030303\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\">Wir gestalten ihre neue Homepage-Basic bereits ab 0.- Euro\n</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\"><br><div>*Sie zahlen also nur die Domain und Hostinggebühren \n<span style=\"font-size: 0.95rem;\">von 17.95€ / Monat zu ihren </span></div><div><span style=\"font-size: 0.95rem;\">Homepage-Design-Paket</span></div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qBbd1exX00",
+          "_anchor": "content4-4n",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content4-4n"
+          "_params": {}
         },
         {
           "_styles": {
@@ -2077,7 +2077,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Logodesign",
-        "order": 3
+        "order": 2
       },
       "components": [
         {
@@ -2683,6 +2683,7 @@
           "_name": "gallery1",
           "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\"></div>\n    </div>\n\n</section>",
           "_cid": "qBbwKqdsuw",
+          "_anchor": "gallery1-4o",
           "_protectedParams": [
             "text_all",
             "gallery__filtersTextStyle",
@@ -2841,8 +2842,7 @@
                 "active": true
               }
             ]
-          },
-          "_anchor": "gallery1-4o"
+          }
         },
         {
           "_styles": {
@@ -2906,11 +2906,11 @@
           "_name": "image3",
           "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"1\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"99\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" checked condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#12ead2\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n            <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/mac-1-1920x1047.png\" width=\"1400\" alt=\"Mobirise\" title>\n                <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                    <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\">Create awesome websites!\n                    </div>\n                </figcaption>\n            </div>\n    </figure>\n</section>",
           "_cid": "qBbzOgZZJ6",
+          "_anchor": "image3-4q",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "image3-4q"
+          "_params": {}
         },
         {
           "_styles": {
@@ -3081,7 +3081,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Corporatedesign",
-        "order": 4
+        "order": 3
       },
       "components": [
         {
@@ -3515,6 +3515,118 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background": "linear-gradient(to left, #554346, #45505b) !important",
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out"
+            },
+            ".mbr-gallery-title": {
+              "font-size": ".9em",
+              "position": "absolute",
+              "display": "block",
+              "width": "100%",
+              "bottom": "0",
+              "padding": "1rem",
+              "color": "#fff",
+              "background": "linear-gradient(to left, rgba(85, 67, 70, 0.85), rgba(69, 80, 91, 0.85)) !important",
+              "-webkit-transition": "0.2s background ease-in-out",
+              "transition": "0.2s background ease-in-out"
+            }
+          },
+          "_name": "gallery1",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#f9f9f9\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
+          "_cid": "qzVVGUH2EL",
+          "_anchor": "gallery1-28",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-4",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery": [
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/gallery10-over-639x447.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery10-over-639x447-639x447.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Black Edition + Webdesign",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/gallery01-over-639x447.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery01-over-639x447-639x447.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Black Edition Schwarz premium",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/backyard-corporate-design-1170x835.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/backyard-corporate-design-1170x835-800x570.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Design Edition Schwarz-Braun",
+                "active": true
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/gallery04-over-639x447.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gallery04-over-639x447-639x447.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Design Edition Schwarz",
+                "active": false
+              }
+            ]
+          }
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
             },
@@ -3597,128 +3709,22 @@
             },
             "H2": {
               "color": "#12ead2"
+            },
+            ".panel-text": {
+              "color": "#232323"
+            },
+            "H4": {
+              "color": "#030303"
             }
           },
           "_name": "toggle2",
-          "_customHTML": "<section class=\"toggle2\" group=\"Accordion & Toggles & Tabs\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Media on Right/Left\" name=\"reverseContent\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"20\" max=\"200\" step=\"1\" value=\"47\">\n        <select title=\"Toggles Count\" name=\"bootstrapAccordion\">\n             <option value=\"1\">1</option>\n             <option value=\"2\">2</option>\n             <option value=\"3\">3</option>\n             <option value=\"4\" selected>4</option>\n             <option value=\"5\">5</option>\n             <option value=\"6\">6</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/02.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>    \n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n        <div class=\"container\">\n            <div class=\"media-container-row\">\n                    <div class=\"toggle-content\">\n                        <h2 class=\"mbr-section-title pb-3 align-left mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Ein Unternehmen • Ein Logo • Ein Look</h2>\n                        <h3 class=\"mbr-section-subtitle align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n                        </h3>\n                        <div id=\"bootstrap-toggle\" class=\"toggle-panel accordionStyles tab-content pt-5 mt-2\">\n                            <div class=\"card\">\n                                <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                                    <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core href=\"#collapse1_1\" aria-expanded=\"false\" aria-controls=\"collapse1\">\n                                        <h4 class=\"mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                                            <span class=\"sign mbr-iconfont mbri-arrow-down inactive\"></span>&nbsp;braucht man unbedingt ein einheitliches design ?</h4>\n                                    </a>\n                                </div>\n                                <div id=\"collapse1\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\">\n                                    <div class=\"panel-body p-4\">\n                                        <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">\n                                           Die Frage ist ziemlich leicht zu beantworten, JA !! Ein einheitliches Erscheinungsbild ist fast schon Pflicht um eine überzeugende Firmendarstellung nach Ausen zu tragen. Nur wenn Firmen wissen, wie sie sich einzigartig machen, werden sie auch wahrgenommen.<br></p>\n                                    </div>\n                                </div>\n                            </div>\n                            <div class=\"card\" mbr-if=\"bootstrapAccordion > 1\">\n                                <div class=\"card-header\" role=\"tab\" id=\"headingTwo\">\n                                    <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core href=\"#collapse2_1\" aria-expanded=\"false\" aria-controls=\"collapse2\">\n                                        <h4 class=\"mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                                            <span class=\"sign mbr-iconfont mbri-arrow-down inactive\"></span> Brauchen das auch Kleinunternehmer ?\n                                        </h4>\n                                    </a>\n                                </div>\n                                <div id=\"collapse2\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingTwo\">\n                                    <div class=\"panel-body p-4\">\n                                        <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">\n                                           Auch hier gibt es von uns ein klares \"JA\"! Gerade Kleinunternehmer machen oft den Fehler an den verkehrten Stellen zu sparen. Eine schlecht funktionierende Webseite, ein mangelhaftes Erscheinungsbild ihrer Mitarbeiter oder ein durcheinander an Unterlagen, bleibt kaum positiv in den Köpfen ihrer Kunden und kostet Sie im Endeffekt weitaus mehr als ein einheitlicher und durchdachter Firmenauftritt.</p>\n                                    </div>\n                                </div>\n                            </div>\n                            <div class=\"card\" mbr-if=\"bootstrapAccordion > 2\">\n                                <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n                                    <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core href=\"#collapse3_1\" aria-expanded=\"true\" aria-controls=\"collapse3\">\n                                        <h4 class=\"mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                                            <span class=\"sign mbr-iconfont mbri-arrow-down inactive\"></span>&nbsp;Das ist doch bestimmt teuer ?&nbsp;</h4>\n                                    </a>\n                                </div>\n                                <div id=\"collapse3\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\">\n                                    <div class=\"panel-body p-4\">\n                                        <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Normalerweise \"JA\". Wenn Sie eine professionelle Design-Agentur beauftragen, kann es durchaus ein kleines Vermögen kosten. Genau aus diesem Grund gibt es Web-Steps MEDIA. Wir halten die Preise klein die Qualität hoch und machen Kunden zu Stammkunden - <a href=\"index.html#form1-r\">Fragen Sie uns einfach</a>.&nbsp;</p>\n                                    </div>\n                                </div>\n                            </div>\n                            <div class=\"card\" mbr-if=\"bootstrapAccordion > 3\">\n                                <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n                                    <a role=\"button\" class=\"collapsed panel-title  text-black\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core href=\"#collapse4\" aria-expanded=\"false\" aria-controls=\"collapse4\">\n                                        <h4 class=\"mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                                            <span class=\"sign mbr-iconfont mbri-arrow-down inactive\"></span>&nbsp;Wie kann ich starten ?</h4>\n                                    </a>\n                                </div>\n                                <div id=\"collapse4\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\">\n                                    <div class=\"panel-body p-4\">\n                                        <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Wir haben 3 Design-Pakete für Sie Angelegt die aber nur eine kleine Auswahl an Printartikel und Designs darstellt sollte das passende dabei sein, können Sie mit dem \"JETZT STARTEN\" Button direkt Ihr Formular mit allen relefanten Firmendaten ausfüllen, ihr Firmenlogo hochladen und absenden. Sollten Sie spezielle Wünsche haben nutzen Sie bitte unser <a href=\"index.html#form1-r\" class=\"text-warning\">Kontaktformular.</a></p>\n                                    </div>\n                                </div>\n                            </div>\n                            <div class=\"card\" mbr-if=\"bootstrapAccordion > 4\">\n                                <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n                                    <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core href=\"#collapse5\" aria-expanded=\"false\" aria-controls=\"collapse5\">\n                                        <h4 class=\"mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                                            <span class=\"sign mbr-iconfont mbri-arrow-down inactive\"></span> This is a accordion Title 5\n                                        </h4>\n                                    </a>\n                                </div>\n                                <div id=\"collapse5\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\">\n                                    <div class=\"panel-body p-4\">\n                                        <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">\n                                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>\n                                    </div>\n                                </div>\n                            </div>\n                            <div class=\"card\" mbr-if=\"bootstrapAccordion > 5\">\n                                <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n                                    <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core href=\"#collapse6\" aria-expanded=\"false\" aria-controls=\"collapse6\">\n                                        <h4 class=\"mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                                            <span class=\"sign mbr-iconfont mbri-arrow-down inactive\"></span> This is a accordion Title 6\n                                        </h4>\n                                    </a>\n                                </div>\n                                <div id=\"collapse6\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\">\n                                    <div class=\"panel-body p-4\">\n                                        <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">\n                                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                     <img src=\"@PROJECT_PATH@/assets/images/af8b7055375719.5981ce008df2b-1400x2557.jpg\" alt=\"Mobirise\" title>\n                </div>\n            </div>\n        </div>\n</section>",
+          "_customHTML": "<section class=\"toggle2\" group=\"Accordion & Toggles & Tabs\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Media on Right/Left\" name=\"reverseContent\">\n        <input type=\"range\" inline title=\"Media Size\" name=\"mediaSize\" min=\"20\" max=\"200\" step=\"1\" value=\"47\">\n        <select title=\"Toggles Count\" name=\"bootstrapAccordion\">\n             <option value=\"1\">1</option>\n             <option value=\"2\">2</option>\n             <option value=\"3\">3</option>\n             <option value=\"4\" selected>4</option>\n             <option value=\"5\">5</option>\n             <option value=\"6\">6</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/web-game-2000x1061.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#030303\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#12ead2\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>    \n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n        <div class=\"container\">\n            <div class=\"media-container-row\">\n                    <div class=\"toggle-content\">\n                        <h2 class=\"mbr-section-title pb-3 align-left mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Ein Unternehmen • Ein Logo • Ein Look</h2>\n                        <h3 class=\"mbr-section-subtitle align-left mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n                        </h3>\n                        <div id=\"bootstrap-toggle\" class=\"toggle-panel accordionStyles tab-content pt-5 mt-2\">\n                            <div class=\"card\">\n                                <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                                    <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core href=\"#collapse1_1\" aria-expanded=\"false\" aria-controls=\"collapse1\">\n                                        <h4 class=\"mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                                            <span class=\"sign mbr-iconfont mbri-arrow-down inactive\"></span>&nbsp;braucht man unbedingt ein einheitliches design ?</h4>\n                                    </a>\n                                </div>\n                                <div id=\"collapse1\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\">\n                                    <div class=\"panel-body p-4\">\n                                        <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">\n                                           Die Frage ist ziemlich leicht zu beantworten, JA !! Ein einheitliches Erscheinungsbild ist fast schon Pflicht um eine überzeugende Firmendarstellung nach Ausen zu tragen. Nur wenn Firmen wissen, wie sie sich einzigartig machen, werden sie auch wahrgenommen.<br></p>\n                                    </div>\n                                </div>\n                            </div>\n                            <div class=\"card\" mbr-if=\"bootstrapAccordion > 1\">\n                                <div class=\"card-header\" role=\"tab\" id=\"headingTwo\">\n                                    <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core href=\"#collapse2_1\" aria-expanded=\"false\" aria-controls=\"collapse2\">\n                                        <h4 class=\"mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                                            <span class=\"sign mbr-iconfont mbri-arrow-down inactive\"></span> Brauchen das auch Kleinunternehmer ?\n                                        </h4>\n                                    </a>\n                                </div>\n                                <div id=\"collapse2\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingTwo\">\n                                    <div class=\"panel-body p-4\">\n                                        <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">\n                                           Auch hier gibt es von uns ein klares \"JA\"! Gerade Kleinunternehmer machen oft den Fehler an den verkehrten Stellen zu sparen. Eine schlecht funktionierende Webseite, ein mangelhaftes Erscheinungsbild ihrer Mitarbeiter oder ein durcheinander an Unterlagen, bleibt kaum positiv in den Köpfen ihrer Kunden und kostet Sie im Endeffekt weitaus mehr als ein einheitlicher und durchdachter Firmenauftritt.</p>\n                                    </div>\n                                </div>\n                            </div>\n                            <div class=\"card\" mbr-if=\"bootstrapAccordion > 2\">\n                                <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n                                    <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core href=\"#collapse3_1\" aria-expanded=\"true\" aria-controls=\"collapse3\">\n                                        <h4 class=\"mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                                            <span class=\"sign mbr-iconfont mbri-arrow-down inactive\"></span>&nbsp;Das ist doch bestimmt teuer ?&nbsp;</h4>\n                                    </a>\n                                </div>\n                                <div id=\"collapse3\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\">\n                                    <div class=\"panel-body p-4\">\n                                        <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Normalerweise \"JA\". Wenn Sie eine professionelle Design-Agentur beauftragen, kann es durchaus ein kleines Vermögen kosten. Genau aus diesem Grund gibt es Web-Steps MEDIA. Wir halten die Preise klein die Qualität hoch und machen Kunden zu Stammkunden - <a href=\"index.html#form1-r\">Fragen Sie uns einfach</a>.&nbsp;</p>\n                                    </div>\n                                </div>\n                            </div>\n                            <div class=\"card\" mbr-if=\"bootstrapAccordion > 3\">\n                                <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n                                    <a role=\"button\" class=\"collapsed panel-title  text-black\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core href=\"#collapse4\" aria-expanded=\"false\" aria-controls=\"collapse4\">\n                                        <h4 class=\"mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                                            <span class=\"sign mbr-iconfont mbri-arrow-down inactive\"></span>&nbsp;Wie kann ich starten ?</h4>\n                                    </a>\n                                </div>\n                                <div id=\"collapse4\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\">\n                                    <div class=\"panel-body p-4\">\n                                        <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Wir haben 3 Design-Pakete für Sie Angelegt die aber nur eine kleine Auswahl an Printartikel und Designs darstellt sollte das passende dabei sein, können Sie mit dem \"JETZT STARTEN\" Button direkt Ihr Formular mit allen relefanten Firmendaten ausfüllen, ihr Firmenlogo hochladen und absenden. Sollten Sie spezielle Wünsche haben nutzen Sie bitte unser &gt;&nbsp;<a href=\"index.html#form1-r\" class=\"text-black\"><b>Kontaktformular &lt;.</b></a></p>\n                                    </div>\n                                </div>\n                            </div>\n                            <div class=\"card\" mbr-if=\"bootstrapAccordion > 4\">\n                                <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n                                    <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core href=\"#collapse5\" aria-expanded=\"false\" aria-controls=\"collapse5\">\n                                        <h4 class=\"mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                                            <span class=\"sign mbr-iconfont mbri-arrow-down inactive\"></span> This is a accordion Title 5\n                                        </h4>\n                                    </a>\n                                </div>\n                                <div id=\"collapse5\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\">\n                                    <div class=\"panel-body p-4\">\n                                        <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">\n                                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>\n                                    </div>\n                                </div>\n                            </div>\n                            <div class=\"card\" mbr-if=\"bootstrapAccordion > 5\">\n                                <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n                                    <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core href=\"#collapse6\" aria-expanded=\"false\" aria-controls=\"collapse6\">\n                                        <h4 class=\"mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                                            <span class=\"sign mbr-iconfont mbri-arrow-down inactive\"></span> This is a accordion Title 6\n                                        </h4>\n                                    </a>\n                                </div>\n                                <div id=\"collapse6\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\">\n                                    <div class=\"panel-body p-4\">\n                                        <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">\n                                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                     <img src=\"@PROJECT_PATH@/assets/images/af8b7055375719.5981ce008df2b-1400x2557.jpg\" alt=\"Mobirise\" title>\n                </div>\n            </div>\n        </div>\n</section>",
           "_anchor": "toggle2-48",
           "_cid": "qB0aQlFGvh",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-slider .carousel-control": {
-              "background": "#1b1b1b"
-            },
-            ".mbr-slider .carousel-control-prev": {
-              "left": "0",
-              "margin-left": "2.5rem"
-            },
-            ".mbr-slider .carousel-control-next": {
-              "right": "0",
-              "margin-right": "2.5rem"
-            },
-            ".mbr-slider .modal-body .close": {
-              "background": "#1b1b1b"
-            },
-            ".mbr-gallery-item > div::before": {
-              "content": "''",
-              "position": "absolute",
-              "left": "0",
-              "top": "0",
-              "width": "100%",
-              "height": "100%",
-              "background": "linear-gradient(to left, #554346, #45505b) !important",
-              "opacity": "0",
-              "-webkit-transition": "0.2s opacity ease-in-out",
-              "transition": "0.2s opacity ease-in-out"
-            },
-            ".mbr-gallery-title": {
-              "font-size": ".9em",
-              "position": "absolute",
-              "display": "block",
-              "width": "100%",
-              "bottom": "0",
-              "padding": "1rem",
-              "color": "#fff",
-              "background": "linear-gradient(to left, rgba(85, 67, 70, 0.85), rgba(69, 80, 91, 0.85)) !important",
-              "-webkit-transition": "0.2s background ease-in-out",
-              "transition": "0.2s background ease-in-out"
-            }
-          },
-          "_name": "gallery1",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"2\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#12ead2\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-text></div>\n    </div>\n\n</section>",
-          "_cid": "qzVVGUH2EL",
-          "_anchor": "gallery1-28",
-          "_protectedParams": [
-            "text_all",
-            "gallery__filtersTextStyle",
-            "gallery__filtersBtnStyle",
-            "gallery"
-          ],
-          "_global": false,
-          "_once": false,
-          "_params": {
-            "text_all": "All",
-            "gallery__filtersTextStyle": "display-4",
-            "gallery__filtersBtnStyle": "btn-primary-outline",
-            "gallery": [
-              {
-                "tags": "Animated",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/gallery10-over-639x447.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gallery10-over-639x447-639x447.jpg",
-                "alt": "",
-                "customStyle1": "display-7",
-                "caption": "Black Edition + Webdesign",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/gallery01-over-639x447.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gallery01-over-639x447-639x447.jpg",
-                "alt": "",
-                "customStyle1": "display-7",
-                "caption": "Black Edition Schwarz premium",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/backyard-corporate-design-1170x835.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/backyard-corporate-design-1170x835-800x570.jpg",
-                "alt": "",
-                "customStyle1": "display-7",
-                "caption": "Design Edition Schwarz-Braun",
-                "active": true
-              },
-              {
-                "tags": "Animated",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/gallery04-over-639x447.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gallery04-over-639x447-639x447.jpg",
-                "alt": "",
-                "customStyle1": "display-7",
-                "caption": "Design Edition Schwarz",
-                "active": false
-              }
-            ]
-          }
         },
         {
           "_styles": {
@@ -3731,14 +3737,17 @@
               "background-image": "url(@bg-value)"
             },
             ".mbr-section-subtitle": {
-              "color": "#12ead2"
+              "color": "#ffffff"
             },
             "H2": {
               "color": "#ffffff"
+            },
+            "SPAN": {
+              "color": "#12ead2"
             }
           },
           "_name": "content5",
-          "_customHTML": "<section class=\"mbr-section content5\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/jumbotron.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#0f7699\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#030303\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                    wir gestalten Ihren Look</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\">\n                    <a href=\"page4.html#menu1-1j\" class=\"text-warning\">Mit zugriff auf weit über 800&nbsp;</a>PrintArtikel von Büro über Textil bis Aussenwerbung, sorgen wir nicht nur für das richtige design, sondern liefern Ihnen die Produkte von der Druckerei direkt zu Ihnen ins Unternehmen.</h3>\n                <p class=\"mbr-text align-center mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"showText\" mbr-article data-multiline>\n                    Shape your future web project with sharp design and refine coded functions\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    <a class=\"btn btn-white-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content5\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/jumbotron.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#030303\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#030303\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\"><span style=\"font-weight: normal;\">\n                    wir gestalten Ihren Look</span></h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\">\n                    Mit zugriff auf weit über 800&nbsp;PrintArtikel von Büro über Textil bis Aussenwerbung, sorgen wir nicht nur für das richtige design, sondern liefern Ihnen die Produkte von der Druckerei direkt zu Ihnen ins Unternehmen.</h3>\n                <p class=\"mbr-text align-center mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"showText\" mbr-article data-multiline>\n                    Shape your future web project with sharp design and refine coded functions\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    <a class=\"btn btn-white-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qAjGg8kneG",
           "_anchor": "content5-2e",
           "_protectedParams": [],
@@ -3862,6 +3871,30 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#ffffff"
+            },
+            "B": {
+              "color": "#12ead2"
+            },
+            "H2": {
+              "color": "#12ead2"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#030303\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">lassen auch sie ihr Firmendesign von uns gestalten</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">Paket aussuchen - Firmendaten und wünsche im Formular eingeben und. . . .&nbsp;<b>absenden</b> !</h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qAjGUk3yJ2",
+          "_anchor": "content4-2g",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
             "& when (@bg-type = 'color')": {
               "background": "linear-gradient(45deg, @bg-value, @color2)"
             },
@@ -3922,30 +3955,9 @@
             }
           },
           "_name": "pricing-tables1",
-          "_customHTML": "<section group=\"Pricing Tables\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input inline type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input inline type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <select title=\"Items Count\" name=\"itemsCount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/65cb0f80260d4e6bb9ddfbf8c8b0c6d8-23-1920-1920x1138.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#030303\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#5b686b\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#030303\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n\n            <div class=\"plan col-12 mx-2 my-2 justify-content-center\" mbr-if=\"itemsCount > 0\" mbr-class=\"{\n                 'col-lg-4': itemsCount == 3,\n                 'col-lg-6': itemsCount == 2,\n                 'col-lg-3': itemsCount == 4}\">\n                <div class=\"plan-header text-center pt-5\">\n                    <h3 class=\"plan-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan-title\">\n                        Standart*</h3>\n                    <div class=\"plan-price\">\n                        <span mbr-text class=\"price-value mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price-value\">€&nbsp;</span>\n                        <span mbr-text class=\"price-figure mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".price-figure\">66</span>\n                        <small mbr-text class=\"price-term mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".price-term\"></small>\n                    </div>\n                </div>\n                <div class=\"plan-body\">\n                    <div class=\"plan-list align-center\">\n                        <ul mbr-text class=\"list-group list-group-flush mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                            <li class=\"list-group-item\"><b>Corporate design</b></li>\n                        </ul>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center py-4 pb-5\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://mobirise.com\" class=\"btn btn-warning-outline\">jetzt starten</a></div>\n                </div>\n            </div>\n\n            <div class=\"plan col-12 mx-2 my-2 justify-content-center\" mbr-if=\"itemsCount > 1\" mbr-class=\"{\n                 'col-lg-4': itemsCount == 3,\n                 'col-lg-6': itemsCount == 2,\n                 'col-lg-3': itemsCount == 4}\">\n                <div class=\"plan-header text-center pt-5\">\n                    <h3 class=\"plan-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan-title\">\n                        Buisness*</h3>\n                    <div class=\"plan-price\">\n                        <span mbr-text class=\"price-value mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price-value\">€&nbsp;</span>\n                        <span mbr-text class=\"price-figure mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".price-figure\">104</span>\n                        <small mbr-text class=\"price-term mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".price-term\"></small>\n                    </div>\n                </div>\n                <div class=\"plan-body\">\n                    <div class=\"plan-list align-center\">\n                        <ul mbr-text class=\"list-group list-group-flush mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                            <li class=\"list-group-item\"><b>Corporate design</b></li><li class=\"list-group-item\">100 Visitenkarten</li>\n                        </ul>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center py-4 pb-5\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://mobirise.com\" class=\"btn btn-warning-outline\">jetzt starten</a></div>\n                </div>\n            </div>\n\n            <div class=\"plan col-12 mx-2 my-2 justify-content-center\" mbr-if=\"itemsCount > 2\" mbr-class=\"{\n                 'col-lg-4': itemsCount == 3,\n                 'col-lg-6': itemsCount == 2,\n                 'col-lg-3': itemsCount == 4}\">\n                <div class=\"plan-header text-center pt-5\">\n                    <h3 class=\"plan-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan-title\">\n                        Premium*</h3>\n                    <div class=\"plan-price\">\n                        <span mbr-text class=\"price-value mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price-value\">€&nbsp;</span>\n                        <span mbr-text class=\"price-figure mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".price-figure\">228</span>\n                        <small mbr-text class=\"price-term mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".price-term\"></small>\n                    </div>\n                </div>\n                <div class=\"plan-body\">\n                    <div class=\"plan-list align-center\">\n                        <ul mbr-text class=\"list-group list-group-flush mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                            <li class=\"list-group-item\"><b style=\"font-size: 1rem;\">Corporate design </b><span style=\"font-size: 1rem;\">bestehend aus dem Design und einer Anfangslieferung von 250•Visitenkarten Briefpapier MS-Datei 250•Beriefumschläge Firmen-Stempel</span><br></li>\n                        </ul>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center py-4 pb-5\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://mobirise.com\" class=\"btn btn-warning-outline\">jetzt starten</a></div>\n                </div>\n            </div>\n\n            <div class=\"plan col-12 mx-2 my-2 justify-content-center\" mbr-if=\"itemsCount > 3\" mbr-class=\"{\n                 'col-lg-4': itemsCount == 3,\n                 'col-lg-6': itemsCount == 2,\n                 'col-lg-3': itemsCount == 4}\">\n                <div class=\"plan-header text-center pt-5\">\n                    <h3 class=\"plan-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan-title\">\n                        Start-up*</h3>\n                    <div class=\"plan-price\">\n                        <span mbr-text class=\"price-value mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price-value\">€&nbsp;</span>\n                        <span mbr-text class=\"price-figure mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".price-figure\">159</span>\n                        <small mbr-text class=\"price-term mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".price-term\"></small>\n                    </div>\n                </div>\n                <div class=\"plan-body\">\n                    <div class=\"plan-list align-center\">\n                        <ul mbr-text class=\"list-group list-group-flush mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                            <li class=\"list-group-item\"><b style=\"font-size: 0.95rem;\">1 Corporate design </b><span style=\"font-size: 0.95rem;\">bestehend aus dem Design und einer Erstlieferung von 250•Visitenkarten 1Briefpapier MS-Datei 250•Beriefumschläge Firmen-Stempel</span><br></li>\n                        </ul>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center py-4 pb-5\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://mobirise.com\" class=\"btn btn-warning-outline\">jetzt starten</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Pricing Tables\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input inline type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input inline type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <select title=\"Items Count\" name=\"itemsCount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/65cb0f80260d4e6bb9ddfbf8c8b0c6d8-23-1920-1920x1138.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#232323\" condition=\"bg.type=='color'\" selected>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#030303\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n\n            <div class=\"plan col-12 mx-2 my-2 justify-content-center\" mbr-if=\"itemsCount > 0\" mbr-class=\"{\n                 'col-lg-4': itemsCount == 3,\n                 'col-lg-6': itemsCount == 2,\n                 'col-lg-3': itemsCount == 4}\">\n                <div class=\"plan-header text-center pt-5\">\n                    <h3 class=\"plan-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan-title\">Basic</h3>\n                    <div class=\"plan-price\">\n                        <span mbr-text class=\"price-value mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price-value\">€&nbsp;</span>\n                        <span mbr-text class=\"price-figure mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".price-figure\">66</span>\n                        <small mbr-text class=\"price-term mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".price-term\"></small>\n                    </div>\n                </div>\n                <div class=\"plan-body\">\n                    <div class=\"plan-list align-center\">\n                        <ul mbr-text class=\"list-group list-group-flush mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                            <li class=\"list-group-item\"><b>Corporate design</b></li>\n                        </ul>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center py-4 pb-5\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://mobirise.com\" class=\"btn btn-warning-outline\">jetzt starten</a></div>\n                </div>\n            </div>\n\n            <div class=\"plan col-12 mx-2 my-2 justify-content-center\" mbr-if=\"itemsCount > 1\" mbr-class=\"{\n                 'col-lg-4': itemsCount == 3,\n                 'col-lg-6': itemsCount == 2,\n                 'col-lg-3': itemsCount == 4}\">\n                <div class=\"plan-header text-center pt-5\">\n                    <h3 class=\"plan-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan-title\">\n                        Buisness</h3>\n                    <div class=\"plan-price\">\n                        <span mbr-text class=\"price-value mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price-value\">€&nbsp;</span>\n                        <span mbr-text class=\"price-figure mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".price-figure\">104</span>\n                        <small mbr-text class=\"price-term mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".price-term\"></small>\n                    </div>\n                </div>\n                <div class=\"plan-body\">\n                    <div class=\"plan-list align-center\">\n                        <ul mbr-text class=\"list-group list-group-flush mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                            <li class=\"list-group-item\"><b>Corporate design</b></li><li class=\"list-group-item\">100 Visitenkarten</li>\n                        </ul>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center py-4 pb-5\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://mobirise.com\" class=\"btn btn-warning-outline\">jetzt starten</a></div>\n                </div>\n            </div>\n\n            <div class=\"plan col-12 mx-2 my-2 justify-content-center\" mbr-if=\"itemsCount > 2\" mbr-class=\"{\n                 'col-lg-4': itemsCount == 3,\n                 'col-lg-6': itemsCount == 2,\n                 'col-lg-3': itemsCount == 4}\">\n                <div class=\"plan-header text-center pt-5\">\n                    <h3 class=\"plan-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan-title\">\n                        Premium</h3>\n                    <div class=\"plan-price\">\n                        <span mbr-text class=\"price-value mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price-value\">€&nbsp;</span>\n                        <span mbr-text class=\"price-figure mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".price-figure\">228</span>\n                        <small mbr-text class=\"price-term mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".price-term\"></small>\n                    </div>\n                </div>\n                <div class=\"plan-body\">\n                    <div class=\"plan-list align-center\">\n                        <ul mbr-text class=\"list-group list-group-flush mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                            <li class=\"list-group-item\"><b style=\"font-size: 1rem;\">Corporate design </b><span style=\"font-size: 1rem;\">bestehend aus dem Design und einer Anfangslieferung von 250•Visitenkarten Briefpapier MS-Datei 250•Beriefumschläge Firmen-Stempel</span><br></li>\n                        </ul>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center py-4 pb-5\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://mobirise.com\" class=\"btn btn-warning-outline\">jetzt starten</a></div>\n                </div>\n            </div>\n\n            <div class=\"plan col-12 mx-2 my-2 justify-content-center\" mbr-if=\"itemsCount > 3\" mbr-class=\"{\n                 'col-lg-4': itemsCount == 3,\n                 'col-lg-6': itemsCount == 2,\n                 'col-lg-3': itemsCount == 4}\">\n                <div class=\"plan-header text-center pt-5\">\n                    <h3 class=\"plan-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".plan-title\">\n                        Start-up</h3>\n                    <div class=\"plan-price\">\n                        <span mbr-text class=\"price-value mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".price-value\">€&nbsp;</span>\n                        <span mbr-text class=\"price-figure mbr-fonts-style\" mbr-theme-style=\"display-1\" data-app-selector=\".price-figure\">159</span>\n                        <small mbr-text class=\"price-term mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".price-term\"></small>\n                    </div>\n                </div>\n                <div class=\"plan-body\">\n                    <div class=\"plan-list align-center\">\n                        <ul mbr-text class=\"list-group list-group-flush mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                            <li class=\"list-group-item\"><b style=\"font-size: 0.95rem;\">1 Corporate design </b><span style=\"font-size: 0.95rem;\">bestehend aus dem Design und einer Erstlieferung von 250•Visitenkarten 1Briefpapier MS-Datei 250•Beriefumschläge Firmen-Stempel</span><br></li>\n                        </ul>\n                    </div>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn text-center py-4 pb-5\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a href=\"https://mobirise.com\" class=\"btn btn-warning-outline\">jetzt starten</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "pricing-tables1-47",
           "_cid": "qB0a648EdG",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-section-subtitle": {
-              "color": "#030303"
-            },
-            "B": {
-              "color": "#12ead2"
-            }
-          },
-          "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\"><b>lassen auch sie ihr Firmendesign von uns gestalten</b></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">Paket aussuchen - Firmendaten und wünsche im Formular eingeben und. . . .&nbsp;<b>absenden</b> !</h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qAjGUk3yJ2",
-          "_anchor": "content4-2g",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -4048,7 +4060,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Printdesign",
-        "order": 5
+        "order": 4
       },
       "components": [
         {
@@ -4531,11 +4543,11 @@
           "_name": "content9",
           "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>Speisekarten\n • Flyer\n &nbsp;• &nbsp;Visitenkarten \n• Postkarten \n• Aufkleber • Briefpapier • Coupons<br>Dropflags • Einladungskarten • Einlegeblätter\n • Grußkarten • Gutscheinkarten • Hissflaggen<br>Jahresplaner • \nKalender • \nLesezeichen • \nMagazine \n• Newsletter • \nNotizblöcke \n• Planen \n<br>Plastikkarten\n • Platten • Werbeschilder &amp; Platten\n • Poster • &nbsp;\nRoll Up Displays • Selbstklebefolien <br>Werbegeschenke • Textilien • U.V.M<br></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
           "_cid": "qBbKts1SLp",
+          "_anchor": "content9-4t",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content9-4t"
+          "_params": {}
         },
         {
           "_styles": {
@@ -4607,11 +4619,11 @@
           "_name": "content5",
           "_customHTML": "<section class=\"mbr-section content5\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"file:///C:/Program%20Files%20(x86)/Mobirise4/resources/app.asar/web/app/builder/../../app/themes/mobirise4/components/content5/../_images/jumbotron.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#030303\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#12ead2\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\"><span style=\"font-weight: normal;\">wir lieben Druck</span></h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\"><div>Im Endeffekt nehmen wir jede herausvorderung an, und bieten unseren Kunden Druckqualität zu niedrigen Preisen!\n</div></h3>\n                <p class=\"mbr-text align-center mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"showText\" mbr-article data-multiline>\n                    Shape your future web project with sharp design and refine coded functions\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-warning-outline\" href=\"index.html#form1-r\">Fragen kostet Nichts</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qBbCrGcbNo",
+          "_anchor": "content5-4s",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content5-4s"
+          "_params": {}
         },
         {
           "_styles": {
@@ -4822,7 +4834,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Impressum",
-        "order": 7
+        "order": 5
       },
       "components": [
         {
@@ -5309,7 +5321,7 @@
             }
           },
           "_name": "content9",
-          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>\n                    \n                <div><br></div><div>\n</div><div><b>Haftung für Inhalte\n</b></div><div>\n</div><div>Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.</div><br><div>\n</div><div>\n</div><div><b>Haftung für Links\n</b></div><div>\n</div><div>Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.</div><br><div>\n</div><div>\n</div><div><b>Urheberrecht\n</b></div><div>\n</div><div>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.</div><br><div>\n</div><div>\n</div><div><b>Google Analytics\n</b></div><div>\n</div><div>Diese Website benutzt Google Analytics, einen Webanalysedienst der Google Inc. („Google“). Google Analytics verwendet sog. „Cookies“, Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Website werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert.\n</div><div>\n</div><div>Im Falle der Aktivierung der IP-Anonymisierung auf dieser Webseite, wird Ihre IP-Adresse von Google jedoch innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum zuvor gekürzt. Nur in Ausnahmefällen wird die volle IP-Adresse an einen Server von Google in den USA übertragen und dort gekürzt. Die IP-Anonymisierung ist auf dieser Website aktiv. Im Auftrag des Betreibers dieser Website wird Google diese Informationen benutzen, um Ihre Nutzung der Website auszuwerten, um Reports über die Websiteaktivitäten zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen gegenüber dem Websitebetreiber zu erbringen.\n</div><div>\n</div><div>Die im Rahmen von Google Analytics von Ihrem Browser übermittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengeführt. Sie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern; wir weisen Sie jedoch darauf hin, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website vollumfänglich werden nutzen können. Sie können darüber hinaus die Erfassung der durch das Cookie erzeugten und auf Ihre Nutzung der Website bezogenen Daten (inkl. Ihrer IP-Adresse) an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem sie das unter dem folgenden Link verfügbare Browser-Plugin herunterladen und installieren: http://tools.google.com/dlpage\n</div><div><br></div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text>\n                    \n                <div><br></div><div><b style=\"font-size: 1.3rem;\">Haftungsausschluss:&nbsp;</b></div><div><b>​\n</b></div><div><b>\n</b></div><div><b>Inhalte\n</b></div><div>Der Inhalt dieser Seiten wurde sorgfältig bearbeitet und überprüft. Web-Steps MEDIA übernimmt jedoch keine Gewähr für die Aktualität, Richtigkeit, Vollständigkeit oder Qualität der bereitgestellten Informationen.\n</div><div>\n</div><div>Haftungsansprüche gegen Web-Steps MEDIA, die sich auf Schäden materieller oder ideeller Art beziehen, welche durch die Nutzung oder Nichtnutzung der dargebotenen Informationen oder durch fehlerhafte und unvollständige Informationen verursacht wurden, sind grundsätzlich ausgeschlossen, sofern seitens Web-Steps MEDIA kein nachweislich vorsätzliches oder grob fahrlässiges Verschulden vorliegt.\n</div><div>\n</div><div>Web-Steps MEDIA behält sich ausdrücklich das Recht vor, Teile der Seite oder das gesamte Angebot ohne vorherige Ankündigung zu verändern, zu ergänzen, zu löschen oder die Veröffentlichung einzustellen.\n</div><div>\n</div><div>Urheber- und Markenrechte\n</div><div>Web-Steps MEDIA ist bestrebt, in allen Publikationen geltende Urheberrechte zu beachten. Sollte es trotzdem zu einer Urheberrechtsverletzung kommen, wird Web-Steps MEDIA das entsprechende Objekt nach Benachrichtigung aus seiner Publikation entfernen bzw. mit dem entsprechenden Urheberrecht kenntlich machen.\n</div><div>\n</div><div>Alle innerhalb des Internetangebots genannten und gegebenenfalls durch Dritte geschützten Marken- und Warenzeichen unterliegen uneingeschränkt den Bestimmungen des jeweils gültigen Kennzeichenrechts und den Besitzrechten der jeweiligen eingetragenen Eigentümer. Allein aufgrund der bloßen Nennung ist nicht der Schluss zu ziehen, dass Markenzeichen nicht durch Rechte Dritter geschützt sind.\n</div><div>\n</div><div>Bei unserer Ware, die im Shopprogramm angeboten wird, handelt es sich um Merchandising-Artikel, die mit Original Logos und/oder -Schriftzug der betrefenden Vereine versehen sind. Sämtliche Logos, Photographien und sonstigen Abbildungen auf dem Internet-Auftritt bzw. im Online-Katalog sind markenrechtlich bzw. urheberrechtlich geschützt. Jegliche Nutzung ohne Zustimmung von Web-Steps MEDIA, insbesondere der unbefugte download von Abbildungen, ist untersagt und wird zivilrechtlich bzw. strafrechtlich verfolgt.\n</div><div>\n</div><div>Das Urheberecht für die eigenen Inhalte von Web-Steps MEDIA steht allein Web-Steps MEDIA zu. Eine Vervielfältigung solcher Grafiken, Sounds oder Texte in anderen elektronischen oder gedruckten Publikationen ist ohne ausdrückliche Zustimmung von Web-Steps MEDIA nicht gestattet.\n</div><div>\n</div><div>​\n</div><div><b>Nutzungsbedingungen\n</b></div><div><b>\n</b></div><div>Web-Steps MEDIA ist mit angemessener Sorgfalt vorgegangen um sicherzustellen, dass alle Angaben, die auf dieser Homepage gemacht werden, zum Zeitpunkt ihrer Eingabe der Richtigkeit entsprechen; allerdings kann es immer zu unabsichtlichen und vereinzelten Fehlern kommen. Sollte dies einmal vorkommen, bitten wir um Verständnis.\n</div><div>\n</div><div>Web-Steps MEDIA macht keine Angaben oder Zusicherungen zu den Informationen, die auf dieser Homepage zur Verfügung gestellt werden und behält sich das Recht vor, jederzeit ohne vorherige Ankündigung Änderungen und Korrekturen vorzunehmen. Web-Steps MEDIA übernimmt keine Haftung für Ungenauigkeiten oder Auslassungen auf dieser Homepage, und ihre Besucher sind ausschließlich selbst für alle Entscheidungen verantwortlich, die aufgrund der in dieser Homepage enthaltenen Informationen getroffen werden. Web-Steps MEDIA übernimmt im vollen gesetzlich zulässigen Umfang keinerlei Haftung für irgendwelche direkten, speziellen, indirekten Schäden, Folgeschäden oder Verluste, oder irgendwelche anderen Schäden oder Verluste gleich welcher Art, die, egal aus welchem Grund durch die Verwendung von Informationen entstehen, die direkt oder indirekt aus dieser Homepage entnommen wurden. Dies stellt keine Einschränkung Ihrer Rechte als Verbraucher nach Landesgesetz oder anderen Gesetzen dar, die nicht ausgeschlossen werden dürfen.\n</div><div>\n</div><div>Diese Homepage enthält Hypertext-Links zu anderen Webseiten, um es den Besuchern einfacher zu machen. Für diese fremden Inhalte ist Web-Steps MEDIA nur dann verantwortlich, wenn Web-Steps MEDIA von ihnen (d.h. auch von einem rechtswidrigen bzw. strafbaren Inhalt) positive Kenntnis hat und es dem Web-Steps MEDIA technisch möglich und zumutbar ist, deren Nutzung zu verhindern. Bei Links handelt es sich allerdings stets um lebende (dynamische) Verweisungen.Web-Steps MEDIA hat bei der erstmaligen Verknüpfung zwar den fremden Inhalt daraufhin überprüft, ob durch ihn eine mögliche zivilrechtliche oder strafrechtliche Verantwortlichkeit ausgelöst wird. Web-Steps MEDIA ist aber nicht dazu verpflichtet, die Inhalte, auf die Web-Steps MEDIA in seinem Angebot verweist, ständig auf Veränderungen zu überprüfen, die eine Verantwortlichkeit neu begründen könnten.\n</div><div>\n</div><div>Web-Steps MEDIA besitzt das Urheberrecht für die Informationen und das Bildmaterial auf dieser Homepage. Das Kopieren von Seiten dieser Homepage für gewerbliche Zwecke ist grundsätzlich untersagt. Das Kopieren von Seiten dieser Homepage für nichtgewerbliche Zwecke wird nur dann genehmigt, wenn alle Kopien mit dem Copyright-Vermerk oder anderen Eigentumshinweisen und Haftungsausschlusserklärungen gekennzeichnet werden. Es werden keine weiteren Rechte für die Verwendung von Urheberrechten, Warenzeichen oder Patenten von Web-Steps MEDIA vergeben. Bei den hier genannten Produktnamen handelt es sich um Warenzeichen von Web-Steps MEDIA; hiervon ausgenommen sind Marken, die als Eigentum Dritter gekennzeichnet sind.\n</div><div>\n</div><div>Der Hinweis auf ein Produkt auf dieser Homepage stellt kein Angebot zum Verkauf oder zur Lieferung dieses Produkts dar und bedeutet nicht, dass dieses Produkt in allen Ländern erhältlich ist oder dass die Bezeichnung oder Beschreibung des Produkts die gleiche ist, wie auf der\n</div><div>\n</div><div><b>Rechtswirksamkeit\n</b></div><div>Dieser Haftungsausschluss ist als Teil des Internetangebotes zu betrachten, von dem aus auf diese Seite verwiesen wurde. Sofern Teile oder einzelne Formulierungen dieses Textes der geltenden Rechtslage nicht, nicht mehr oder nicht vollständig entsprechen sollten, bleiben die übrigen Teile des Dokumentes in ihrem Inhalt und ihrer Gültigkeit hiervon unberührt.\n</div><div>Bildnachweis\n</div><div><b>\n</b></div><div><b>© Fotolia\n</b></div><div><b>© Stock- Images\n</b></div><div><b>© eigene Bilddateien</b></div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
           "_cid": "qzUlyoTXDr",
           "_anchor": "content9-1s",
           "_protectedParams": [],
@@ -5407,6 +5419,598 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        }
+      ]
+    },
+    "page6.html": {
+      "settings": {
+        "meta_descr": "Web Site Creator Description",
+        "title": "AGB",
+        "order": 6
+      },
+      "components": [
+        {
+          "_name": "menu1",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"4.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#030303\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-expand beta-menu navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"index.html#slider1-o\">\n                         <img src=\"@PROJECT_PATH@/assets/images/webstepsmedia-logo2-787x353.jpg\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-warning\" data-app-selector=\".navbar-caption\" href=\"index.html#slider1-o\"></a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-warning\" href=\"page1.html#content5-11\" data-app-selector=\".nav-link,.dropdown-item\"><span class=\"socicon socicon-windows mbr-iconfont mbr-iconfont-btn\"></span>\n                        \n                        Webdesign &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-warning\" href=\"page2.html#content5-1c\" data-app-selector=\".nav-link,.dropdown-item\"><span class=\"socicon socicon-medium mbr-iconfont mbr-iconfont-btn\"></span>\n                        \n                        Logodesign &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li><li class=\"nav-item\"><a class=\"nav-link link text-warning\" href=\"page3.html#content5-1g\" data-app-selector=\".nav-link,.dropdown-item\"><span class=\"socicon socicon-buffer mbr-iconfont mbr-iconfont-btn\"></span>\n                        &nbsp;Corporate design &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-warning\" href=\"page4.html#content5-1k\" data-app-selector=\".nav-link,.dropdown-item\"><span class=\"socicon socicon-coderwall mbr-iconfont mbr-iconfont-btn\"></span>\n                        &nbsp;Printdesign &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</a>\n                </li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-warning\" href=\"https://mobirise.com\"><span class=\"socicon socicon-mail mbr-iconfont mbr-iconfont-btn\"></span>\n                    &nbsp;Fragen ? &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a></div>\n        </div>\n    </nav>\n</section>",
+          "_styles": {
+            ".navbar": {
+              "padding": ".5rem 0",
+              "background": "@menuBgColor",
+              "transition": "none",
+              "min-height": "77px"
+            },
+            ".navbar-dropdown.bg-color.transparent.opened": {
+              "background": "@menuBgColor"
+            },
+            "a": {
+              "font-style": "normal"
+            },
+            ".nav-item": {
+              "& span": {
+                "padding-right": "0.4em",
+                "line-height": "0.5em",
+                "vertical-align": "text-bottom",
+                "position": "relative",
+                "top": "-0.2em",
+                "text-decoration": "none"
+              },
+              "& a": {
+                "padding": "0.7rem 0 !important",
+                "margin": "0rem .65rem !important"
+              }
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".btn": {
+              "padding": "0.4rem 1.5rem",
+              ".mbr-iconfont": {
+                "font-size": "1.6rem"
+              },
+              "display": "inline-flex",
+              "align-items": "center"
+            },
+            ".menu-logo": {
+              "margin-right": "auto",
+              ".navbar-brand": {
+                "display": "flex",
+                "margin-left": "5rem",
+                "padding": "0",
+                "transition": "padding .2s",
+                "min-height": "3.8rem",
+                "align-items": "center",
+                ".navbar-caption-wrap": {
+                  "display": "-webkit-flex",
+                  "-webkit-align-items": "center",
+                  "align-items": "center",
+                  "word-break": "break-word",
+                  "min-width": "7rem",
+                  "margin": ".3rem 0",
+                  ".navbar-caption": {
+                    "line-height": "1.2rem !important",
+                    "padding-right": "2rem"
+                  }
+                },
+                ".navbar-logo": {
+                  "font-size": "4rem",
+                  "transition": "font-size 0.25s",
+                  "& img": {
+                    "display": "flex"
+                  },
+                  ".mbr-iconfont": {
+                    "transition": "font-size 0.25s"
+                  }
+                }
+              }
+            },
+            ".navbar-toggleable-sm .navbar-collapse": {
+              "justify-content": "flex-end",
+              "-webkit-justify-content": "flex-end",
+              "padding-right": "5rem",
+              "width": "auto",
+              ".navbar-nav": {
+                "flex-wrap": "wrap",
+                "-webkit-flex-wrap": "wrap",
+                "padding-left": "0",
+                ".nav-item": {
+                  "-webkit-align-self": "center",
+                  "align-self": "center"
+                }
+              },
+              ".navbar-buttons": {
+                "padding-left": "0",
+                "padding-bottom": "0"
+              }
+            },
+            ".dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                "display": "none",
+                "position": "absolute",
+                "min-width": "5rem",
+                "padding-top": "1.4rem",
+                "padding-bottom": "1.4rem",
+                "text-align": "left",
+                ".dropdown-item": {
+                  "width": "auto",
+                  "padding": "0.235em 1.5385em 0.235em 1.5385em !important",
+                  "&::after": {
+                    "right": "0.5rem"
+                  }
+                },
+                ".dropdown-submenu": {
+                  "margin": "0"
+                }
+              },
+              "&.open > .dropdown-menu": {
+                "display": "block"
+              }
+            },
+            ".navbar-toggleable-sm": {
+              "&.opened:after": {
+                "position": "absolute",
+                "width": "100vw",
+                "height": "100vh",
+                "content": "''",
+                "background-color": "rgba(0, 0, 0, 0.1)",
+                "left": "0",
+                "bottom": "0",
+                "transform": "translateY(100%)",
+                "-webkit-transform": "translateY(100%)",
+                "z-index": "1000"
+              }
+            },
+            ".navbar.navbar-short": {
+              "min-height": "60px",
+              "transition": "all .2s",
+              "& .navbar-toggler-right": {
+                "top": "20px"
+              },
+              "& .navbar-logo a": {
+                "font-size": "2.5rem !important",
+                "line-height": "2.5rem",
+                "transition": "font-size 0.25s",
+                "& .mbr-iconfont": {
+                  "font-size": "2.5rem !important"
+                },
+                "& img": {
+                  "height": "3rem !important"
+                }
+              },
+              "& .navbar-brand": {
+                "min-height": "3rem"
+              }
+            },
+            "button.navbar-toggler": {
+              "width": "31px",
+              "height": "18px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "top": "1.5rem",
+              "right": "1rem",
+              "&:focus": {
+                "outline": "none"
+              },
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              },
+              "&:nth-child(2)": {
+                "-webkit-transform": "rotate(45deg)",
+                "transform": "rotate(45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(3)": {
+                "-webkit-transform": "rotate(-45deg)",
+                "transform": "rotate(-45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              }
+            },
+            ".collapsed": {
+              "&.navbar-expand": {
+                "flex-direction": "column"
+              },
+              ".btn": {
+                "display": "flex"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".navbar-expand": {
+                "flex-direction": "column"
+              },
+              "img": {
+                "height": "3.8rem !important"
+              },
+              ".btn": {
+                "display": "flex"
+              },
+              "button.navbar-toggler": {
+                "display": "block"
+              },
+              ".navbar-brand": {
+                "margin-left": "1rem !important"
+              },
+              ".navbar-toggleable-sm": {
+                "flex-direction": "column",
+                "-webkit-flex-direction": "column"
+              },
+              ".navbar-collapse": {
+                "display": "none !important",
+                "padding-right": "0 !important",
+                "&.collapsing,&.show": {
+                  "display": "block !important",
+                  ".navbar-nav": {
+                    "display": "block",
+                    "text-align": "center",
+                    ".nav-item": {
+                      "clear": "both",
+                      "& when (@showButtons = false)": {
+                        "&:last-child": {
+                          "margin-bottom": "1rem"
+                        }
+                      }
+                    }
+                  },
+                  ".navbar-buttons": {
+                    "text-align": "center",
+                    "&:last-child": {
+                      "margin-bottom": "1rem"
+                    }
+                  }
+                }
+              },
+              ".dropdown": {
+                ".dropdown-menu": {
+                  "width": "100%",
+                  "text-align": "center",
+                  "position": "relative",
+                  "opacity": "0",
+                  "display": "block",
+                  "height": "0",
+                  "visibility": "hidden",
+                  "padding": "0",
+                  "transition-duration": ".5s",
+                  "transition-property": "opacity,padding,height"
+                },
+                "&.open > .dropdown-menu": {
+                  "position": "relative",
+                  "opacity": "1",
+                  "height": "auto",
+                  "padding": "1.4rem 0",
+                  "visibility": "visible"
+                },
+                ".dropdown-submenu": {
+                  "left": "0",
+                  "text-align": "center",
+                  "width": "100%"
+                },
+                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
+                  "margin-top": "0",
+                  "position": "inherit",
+                  "right": "0",
+                  "top": "50%",
+                  "display": "inline-block",
+                  "width": "0",
+                  "height": "0",
+                  "margin-left": ".3em",
+                  "vertical-align": "middle",
+                  "content": "\"\"",
+                  "border-top": ".30em solid",
+                  "border-right": ".30em solid transparent",
+                  "border-left": ".30em solid transparent"
+                }
+              }
+            },
+            "@media (min-width: 767px)": {
+              ".menu-logo": {
+                "flex-shrink": "0"
+              }
+            }
+          },
+          "_cid": "qz5xvUqkb7",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {},
+          "_anchor": "menu1-4u"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "H2": {
+              "color": "#12ead2"
+            }
+          },
+          "_name": "content5",
+          "_customHTML": "<section class=\"mbr-section content5\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/c37a4cf63f46175980a4fd29c25e9adb-1200x600.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#0f7699\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\"><br><br>AGB´s</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\"></h3>\n                <p class=\"mbr-text align-center mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"showText\" mbr-article data-multiline>\n                    Shape your future web project with sharp design and refine coded functions\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    <a class=\"btn btn-white-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qzS8s3iprJ",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content5-4v"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0",
+              "text-align": "left"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"14\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>Angaben gemäß § 5 TMG: \n<div>\n</div><div>Firma : <b>WEB-STEPS MEDIA\n</b></div><div>Vertreten durch: Winhold Peter\n</div><div>Anschrift: WEIHERBACHSTRASSE 38   •   94327 BOGEN&nbsp;</div><br><div>MAIL: <a href=\"index.html#form1-r\">webstepsinfo@gmail.com</a>\n</div><div>TEL.: 09422 / 4025733  •  Whatsapp: 01575 / 8082304 \n</div><div>Steuernummer 162/288/70955</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_cid": "qAIaSTjIox",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content9-4w"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".line": {
+              "background-color": "@lineColor",
+              "color": "@lineColor",
+              "align": "center",
+              "height": "2px",
+              "margin": "0 auto"
+            },
+            ".section-text": {
+              "padding": "2rem 0"
+            },
+            ".inner-container": {
+              "margin": "0 auto"
+            },
+            "@media (max-width: 768px)": {
+              ".inner-container": {
+                "width": "100% !important"
+              }
+            },
+            ".section-text DIV": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content9",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text>\n                    \n                <div><br></div><div><b style=\"font-size: 0.95rem;\">Allgemeine Geschäftsbedingungen - AGB&nbsp;</b></div><div><b>\n</b></div><div><b>ARTIKEL 1 - Geltungsbereich und Anbieter\n</b></div><div><b>\n</b></div><div>Diese Allgemeinen Geschäftsbedingungen gelten für alle Bestellungen, die Personen über den Online-Shop von\n</div><div>\n</div><div>Web-Steps MEDIA und dessen Portale &nbsp;unter http://www.web-steps.de/ abgeben.\n</div><div>\n</div><div>Für alle Bestellungen in den Partnershops, auf den Seiten von http://www.web-steps.de/ gelten die jeweiligen AGB´s\n</div><div>\n</div><div>der Partnershops, die Sie am Seitenanfang oder Seitenende eines jeden Shops finden.\n</div><div>\n</div><div>Web-Steps MEDIA ist zu keiner Zeit für die Richtigkeit der Angebote auf den Partnershopseiten verantwortlich oder auf irgendeine Art und Weise dafür haftbar zu machen.\n</div><div>\n</div><div>\n</div><div>E–Mail Adresse:webstepsinfo@gmail.com\n</div><div><b>\n</b></div><div><b>ARTIKEL 2 - Vertragsschluss\n</b></div><div><b>\n</b></div><div><b>&nbsp; &nbsp; </b>Durch das absenden des Fanshop-Formulars auf der Seite http://www.fanshop3000.de/ für die Erstellung eines Fanshops durch die Firma Web-Steps MEDIA  ermächtigt der Kunde, die Firma Web-Steps MEDIA die Daten die zur Erstellung des Fanshops notwendig sind, uneingeschränkt verwenden zu dürfen.\n</div><div>\n</div><div>&nbsp; &nbsp; Den monatlichen Beitragsatz, gilt für die gesammte Mietdauer in Höhe der Summe die der Mieter zu Mietanfang auf der Angebotsseite von http://www.web-steps.de/ vorfindet.\n</div><div>\n</div><div>&nbsp; &nbsp; Die Vertragsdauer beträgt mindestens 12 Monate und verlängert sich nach Ablaufdatum automatisch um weitere 12 Monate.\n</div><div>\n</div><div>&nbsp; &nbsp; Der Vertrag kommt durch das Absenden des Bestellfolmulars zustande und kann jeweils 4 Wochen vor Ablauf gekündigt werden.\n</div><div>\n</div><div>&nbsp; &nbsp; Zur Kündigung genügt ein formloses Schreiben per Email an: webstepsinfo@gmail.com oder per Einschreiben an: </div><br><div>Web-Steps MEDIA &nbsp;z.H. Peter Winhold - Weiherbachstrasse 38 - 94327 Bogen / Deutschland\n</div><div>\n</div><div>&nbsp; &nbsp; Die Darstellung der jeweiligen Produkte im Online-Shop stellt kein rechtlich bindendes Angebot, sondern einen unverbindlichen Online-Katalog dar. Durch Anklicken des Buttons \"Bestellung absenden\" geben Sie eine verbindliche Bestellung ab. Durch das Auslösen einer Bestellung wird eine Zahlungsverpflichtung eingegangen. Die Bestätigung des Eingangs Ihrer Bestellung erfolgt zusammen mit der Annahme der Bestellung unmittelbar nach dem Absenden durch eine automatisierte E-Mail. Mit dieser E-Mail-Bestätigung ist der Kaufvertrag zustande gekommen.\n</div><div>\n</div><div>&nbsp; &nbsp; Sollte unsere Auftragsbestätigung Schreib- oder Druckfehler enthalten oder sollten unserer Preisfestlegung technisch bedingte Übermittlungsfehler zu Grunde liegen, so sind wir zur Anfechtung berechtigt, wobei wir Ihnen unseren Irrtum beweisen müssen. Bereits erfolgte Zahlungen werden Ihnen unverzüglich erstattet.\n</div><div>\n</div><div>&nbsp; &nbsp; Die Vertragssprache ist Deutsch.\n</div><div>\n</div><div>&nbsp; &nbsp; Web-Steps MEDIA behält sich das Recht vor einen Shopbetreiber bei Zuwiederhandlung der AGBs das Vertragsverhältniss fristlos zu kündigen. Ein Anspruch auf Rückerstatung einer bis dato geleisteten Mietzahlung besteht zu keiner Zeit.\n</div><div>\n</div><div><b>ARTIKEL 3 - Preise\n</b></div><div><b>\n</b></div><div>Alle Preise die auf unserem Onlineangebot aufgeführt sind &nbsp;für beide Vertragspateien bindend.</div><div>\n</div><div><b>ARTIKEL 4 - Lieferbedingungen und Durchführung\n</b></div><div><b>\n</b></div><div>Die Lieferung erfolgt in das/die durch Sie angegebene/n Land/Länder an die durch Sie als Lieferadresse/n angegebene/n Adresse/n. Die Produkte können in alle EU-Länder versandt werden. Sie können das Lieferland im ersten Schritt des Warenkorbes angeben. Daraufhin wird Ihnen direkt der Gesamtpreis der Versandkosten angezeigt. Im zweiten Schritt wird/werden die Lieferadresse/n eingegeben. Diese können sich von der Adresse des Absenders unterscheiden.\n</div><div>\n</div><div>&nbsp;Die Lieferzeit für die Produkte wird Ihnen jeweils auf der Produktseite angezeigt.\n</div><div>\n<span style=\"font-size: 0.95rem;\">Sollten Produkte nicht verfügbar sein, so wird dies auf der Produktseite angezeigt. Eine Bestellung des Produktes ist dann solange nicht möglich, bis wir dieses Produkt wieder liefern können.&nbsp;</span></div><div>\n</div><div>&nbsp; &nbsp; Sollte ein bestelltes Produkt nicht verfügbar sein, weil wir mit diesem Produkt von unseren Lieferanten ohne eigenes Verschulden nicht beliefert werden, können wir vom Vertrag zurücktreten. In diesem Fall werden wir Sie unverzüglich informieren und Ihnen ggf. die Lieferung eines vergleichbaren Produktes vorschlagen. Wenn kein vergleichbares Produkt verfügbar ist oder Sie keine Lieferung eines vergleichbaren Produktes wünschen, werden wir Ihnen ggf. bereits erbrachte Gegenleistungen erstatten.\n</div><div>\n</div><div>&nbsp; &nbsp; Falls das Produkt momentan nicht lieferbar ist, so werden Sie spätestens am auf den Tag der Bestellung folgenden Werktag darüber informiert und haben in diesem Falle das Recht auf kostenlose Vertragsauflösung\n</div><div>\n</div><div>&nbsp; &nbsp; Im Falle von Vertragsauflösung gemäß dem vorherigen Absatz zahlen wir den Betrag, den wir zuvor von Ihnen erhalten haben schnellstmöglich, aber spätestens innerhalb von 30 Tagen nach der Vertragsauflösung zurück.\n</div><div>\n</div><div>&nbsp; &nbsp; Das Risiko der Beschädigung und/oder des Abhandenkommens von Produkten liegt bis zum Moment der Übergabe an Sie bei uns, außer wenn dies ausdrücklich anders vereinbart wurde.\n</div><div>\n</div><div>&nbsp; &nbsp; Wir sind nicht verantwortlich für Druckfehler auf den Produkten, die nicht richtig oder fälschlich durch den Auftraggeber angegeben wurden. Selbiges gilt für alle durch den Auftraggeber angegebenen Adress- und Zulieferdaten und übrigen Angaben.\n</div><div>\n</div><div>&nbsp; &nbsp; Die Lieferung erfolgt durch einen von uns frei zu bestimmenden Lieferdienst.\n</div><div>\n</div><div>&nbsp;\n</div><div><b style=\"font-size: 0.95rem;\">ARTIKEL 5 - Versandkosten&nbsp;</b></div><div><b>\n</b></div><div><b>&nbsp; </b>&nbsp; Die Lieferpreise der verschiedenen Produkte sind auf den jeweiligen Shopseiten aufgeführt.\n</div><div><b>\n</b></div><div><b>​\n</b><b style=\"font-size: 0.95rem;\">Artikel 6 - Widerrufsrecht&nbsp;</b></div><div><b>&nbsp;</b> &nbsp; Sie haben das Recht, binnen vierzehn Tagen ohne Angabe von Gründen diesen Vertrag zu widerrufen.\n</div><div>&nbsp; &nbsp; Die Widerrufsfrist beträgt vierzehn Tage ab dem Tag, an dem Sie oder ein von Ihnen benannter Dritter, der nicht der Beförderer ist, die letzte Ware in Besitz genommen haben bzw. hat.\n</div><div>&nbsp; &nbsp; Um Ihr Widerrufsrecht auszuüben, müssen Sie uns\n</div><div>\n</div><div>Web-Steps MEDIA</div><div>\n<span style=\"font-size: 0.95rem;\">Weiherbachstrasse 38&nbsp;</span></div><div>\n</div><div>94327 Bogen\n</div><div>\n<span style=\"font-size: 0.95rem;\">Deutschland&nbsp;</span></div><div>\n</div><div>E-Mail: webstepsinfo@gmail.com\n</div><div>\n</div><div>mittels einer eindeutigen Erklärung (z. B. ein mit der Post versandter Brief, oder E-Mail) über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren. Sie können dafür das beigefügte Muster-Widerrufsformular verwenden, das jedoch nicht vorgeschrieben ist. Machen Sie von dieser Möglichkeit Gebrauch, so werden wir Ihnen unverzüglich (z. B. per E-Mail) eine Bestätigung über den Eingang eines solchen Widerrufs übermitteln. Zur Wahrung der Widerrufsfrist reicht es aus, dass Sie die Mitteilung über die Ausübung des Widerrufsrechts vor Ablauf der Widerrufsfrist absenden.\n</div><div>\n</div><div>Folgen des Widerrufs\n</div><div>\n</div><div>Wenn Sie diesen Vertrag widerrufen, haben wir Ihnen alle Zahlungen, die wir von Ihnen erhalten haben, einschließlich der Lieferkosten (mit Ausnahme der zusätzlichen Kosten, die sich daraus ergeben, dass Sie eine andere Art der Lieferung als die von uns angebotene, günstigste Standardlieferung gewählt haben), unverzüglich und spätestens binnen vierzehn Tagen ab dem Tag zurückzuzahlen, an dem die Mitteilung über Ihren Widerruf dieses Vertrags bei uns eingegangen ist. Für diese Rückzahlung verwenden wir dasselbe Zahlungsmittel, das Sie bei der ursprünglichen Transaktion eingesetzt haben, es sei denn, mit Ihnen wurde ausdrücklich etwas anderes vereinbart; in keinem Fall werden Ihnen wegen dieser Rückzahlung Entgelte berechnet. Wir können die Rückzahlung verweigern, bis wir die Waren wieder zurückerhalten haben oder bis Sie den Nachweis erbracht haben, dass Sie die Waren zurückgesandt haben, je nachdem, welches der frühere Zeitpunkt ist. Sie haben die Waren unverzüglich und in jedem Fall spätestens binnen vierzehn Tagen ab dem Tag, an dem Sie uns über den Widerruf dieses Vertrags unterrichten, an Retouradresse des jeweiligen Lieferranten in den Fanshops zurückzusenden oder zu übergeben. Die Frist ist gewahrt, wenn Sie die Waren vor Ablauf der Frist von vierzehn Tagen absenden. Sie tragen die unmittelbaren Kosten der Rücksendung der Waren. Sie müssen für einen etwaigen Wertverlust der Waren nur aufkommen, wenn dieser Wertverlust auf einen zur Prüfung der Beschaffenheit, Eigenschaften und Funktionsweise der Waren nicht notwendigen Umgang mit ihnen zurückzuführen ist.\n</div><div>\n</div><div>Das Widerrufsrecht Umtausch/Rückgabe besteht nach den gesetzlich vorgeschriebenen Angaben mit folgenden Ausnahmen\n</div><div>\n</div><div>•zur Lieferung von Waren, die nicht vorgefertigt sind und für deren Herstellung eine individuelle Auswahl oder Bestimmung durch den Verbraucher maßgeblich ist oder die eindeutig auf die persönlichen Bedürfnisse des Verbrauchers zugeschnitten sind.\n</div><div>\n<span style=\"font-size: 0.95rem;\">Rückgabe von eigens für den Kunden personalisierte Waren sind vom.&nbsp;</span></div><div>\n•<span style=\"font-size: 0.95rem;\">zur Lieferung von Waren, die schnell verderben können oder deren Verfallsdatum schnell überschritten würde,&nbsp;</span></div><div>\n•<span style=\"font-size: 0.95rem;\">zur Lieferung versiegelter Waren, die aus Gründen des Gesundheitsschutzes oder der Hygiene nicht zur Rückgabe geeignet sind, wenn ihre Versiegelung nach der Lieferung entfernt wurde,&nbsp;</span></div><div>\n•<span style=\"font-size: 0.95rem;\">zur Lieferung von Waren, wenn diese nach der Lieferung auf Grund ihrer Beschaffenheit untrennbar mit anderen Gütern vermischt wurden,&nbsp;</span></div><div>\n•<span style=\"font-size: 0.95rem;\">zur Lieferung von Ton- oder Videoaufnahmen oder Computersoftware in einer versiegelten Packung, wenn die Versiegelung nach der Lieferung entfernt wurde,&nbsp;</span></div><div>\n•<span style=\"font-size: 0.95rem;\">zur Lieferung von Zeitungen, Zeitschriften oder Illustrierten mit Ausnahme von Abonnement-Verträgen,&nbsp;</span></div><div>\n•<span style=\"font-size: 0.95rem;\">zur Lieferung alkoholischer Getränke, deren Preis bei Vertragsschluss vereinbart wurde, die aber frühestens 30 Tage nach Vertragsschluss geliefert werden können und deren aktueller Wert von Schwankungen auf dem Markt abhängt, auf die der Unternehmer keinen Einfluss hat.&nbsp;</span></div><div>\n</div><div>&nbsp;\n<span style=\"font-size: 0.95rem;\">&nbsp;Hinweis auf Nichtbestehen des Widerrufsrechts&nbsp;</span></div><div>Das Widerrufsrecht besteht nicht bei Fernabsatzverträgen zur Lieferung von Waren, die nicht vorgefertigt sind und für deren Herstellung eine individuelle Auswahl oder Bestimmung durch den Verbraucher maßgeblich ist oder die eindeutig auf die persönlichen Bedürfnisse des Verbrauchers zugeschnitten sind.\n</div><div>&nbsp; &nbsp; </div><div>Eigentumsvorbehalt </div><br><div>Die bestellte Ware bleibt bis zum Ausgleich der Web-Steps-MEDIA zustehenden Forderungen Eigentum von Web-Steps MEDIA oder deren Partnershops. Ist der Besteller Kaufmann im Sinne des HGB, behält sich Web-Steps MEDIA oder deren Partnershops das Eigentum an allen Liefergegenständen bis zum Eingang aller Zahlungen aus der Geschäftsbeziehung vor.\n</div><div>\n</div><div>&nbsp;Bei vertragswidrigem Verhalten des Bestellers, insbesondere bei Zahlungsverzug, sind wir berechtigt, die Kaufsache zurückzunehmen. In der Zurücknahme der Kaufsache durch uns liegt kein Rücktritt vom Vertrag, es sei denn, wir hätten dies ausdrücklich schriftlich erklärt.\n</div><div>&nbsp; &nbsp; </div><br><div>Gewährleistung und Haftung :Produktbeschreibungen, Angaben, Abbildungen, technische Daten, Gewichts-, Maß- und Leistungsbeschreibungen, die auf unseren Webseiten, in Prospekten, Katalogen, Rundschreiben, Anzeigen, Newslettern oder Preislisten enthalten sind, haben rein informatorischen Charakter. Web-Steps MEDIA übernimmt keine Gewähr für die Richtigkeit dieser Angaben. Hinsichtlich der Art und des Umfangs der Lieferung sind allein die in der Auftragsbestätigung enthaltenen Angaben ausschlaggebend.\n</div><div>\n</div><div>Bei allen Waren aus unserem Shop bestehen gesetzliche Gewährleistungsrechte.\n</div><div>\n</div><div>Soweit ein gewährleistungspflichtiger Mangel vorliegt, ist der Kunde im Rahmen der gesetzlichen Bestimmungen berechtigt, Nacherfüllung zu verlangen, von dem Vertrag zurückzutreten oder den Kaufpreis zu mindern.\n</div><div>\n</div><div>&nbsp;Im Falle von Rücksendungen aufgrund von Mängeln wird merkando auch die Versandkosten übernehmen.\n</div><div>\n</div><div>Die Datenkommunikation über das Internet kann nach dem derzeitigen Stand der Technik nicht fehlerfrei und/oder jederzeit verfügbar gewährleistet werden. merkando haftet daher nicht für die ständige und ununterbrochene Verfügbarkeit des Online-Angebots.\n</div><div>\n</div><div><span style=\"font-size: 0.95rem;\">Für Beschädigung oder Verlust von Daten (z.B. elektronische Bilddateien) auf kundeneigenen - oder Web-Steps MEDIA  - Datenträgern sowie auf den elektronischen Datenübertragungswegen und Netzwerken wird eine Haftung angeboten. Für Beschädigung oder Verlust von jeglichen zur Verfügung gestellten Filmen, Negativen, Dias, Fotos, Datenträgern oder sonstigen Gegenständen oder Vorlagen wird ebenfalls ausdrücklich keine Haftung übernommen.&nbsp;</span></div><div>\n</div><div>&nbsp;Web-Steps MEDIA oder deren Partnershops haftet nicht für Schäden, die nicht an der gelieferten Ware selbst entstanden sind, insbesondere wird keine Haftung für entgangenen Gewinn oder für sonstige Vermögensschäden übernommen.\n</div><div>\n</div><div>&nbsp;Es wird keine Haftung für Mängel übernommen, die auf einen Verstoß gegen die Pflegeanleitung zurückzuführen sind.\n</div><div>\n</div><div>Die Haftungsbeschränkungen des Absatzes 6 und 7 gelten nicht, sofern die Schadensursache auf Vorsatz oder grober Fahrlässigkeit von Web-Steps MEDIA oder deren Partnershops oder deren Vertretern oder Erfüllungsgehilfen beruht bzw. Web-Steps MEDIA oder deren Partnershops schuldhaft eine Vertragspflicht verletzt.\n</div><div>\n</div><div>​\n</div><div><b>\n</b></div><div><b>Artikel 7 - Zahlungsbedingungen\n</b></div><div><b>\n</b></div><div><b>&nbsp; </b>&nbsp; Die Zahlung erfolgt je Shopangebot über Paypal, Sofortüberweisung oder Kreditkarte (direkte Zahlung). Bei direkter Zahlung wird das Konto direkt mit Abschluss der Bestellung belastet und kann die Ware umgehend produziert werden. Bei indirekter Zahlung erfolgt die Produktion nachdem die Zahlung auf unserem Konto eingegangen ist.\n</div><div>\n</div><div>&nbsp;Bei der Zahlungsart Überweisung werden alle erforderlichen Daten für die Überweisung mit der Auftragsbestätigung zugestellt.\n</div><div>\n</div><div>Die ausstehenden Beträge müssen von innerhalb von 30 Tagen beglichen werden. Sollte dies nicht der Fall sein, wird der offene Betrag in das kostenpflichtige Mahnverfahren weitergeleitet.\n</div><div>\n</div><div>Die angebotenen Zahlungsarten ändern sich abhängig von dem Land, in dem die Bestellung abgegeben wird. Bei Eingabe einer Wohnadresse außerhalb Deutschlands könnten sich die angebotenen Zahlungsmöglichkeiten dementsprechend ändern und einschränken.\n</div><div>\n</div><div><b>​\n</b><b style=\"font-size: 0.95rem;\">Artikel 8 - Klageverfahren&nbsp;</b></div><div><b>\n</b></div><div><b>&nbsp;</b> &nbsp; Klagen über die Ausführung von Bestellungen müssen, nachdem Sie die Mängel festgestellt haben, innerhalb der Geschäftszeiten vollständig und deutlich beschrieben bei uns eingehen.\n</div><div>\n</div><div>&nbsp; &nbsp; Bei uns eingegangene Klagen werden ab dem Eingangsdatum innerhalb eines Zeitraums von 14 Tagen beantwortet. Sollte eine längere Bearbeitungszeit benötigt werden, so werden Sie darüber von uns, einschließlich eines Hinweises auf den voraussichtlichen Zeitpunkt des Antworteingangs, innerhalb von 14 Tagen informiert.\n</div><div>\n</div><div>&nbsp; &nbsp; Falls die Klage nicht im gegenseitigen Einverständnis gelöst werden kann, entsteht ein Rechtsstreit, auf den die folgende Rechtsstreitigkeitsregelung zutrifft.\n</div><div>\n</div><div><b>Artikel 9 - Rechtsstreitigkeit\n</b></div><div><b>\n</b></div><div><b>&nbsp; &nbsp; </b>Für Verträge, auf die diese Allgemeinen Geschäftsbedingungen zutreffen, gilt ausschließlich das deutsche Recht.\n</div><div><b>\n</b></div><div><b>Artikel 10 - Verantwortung des Auftraggebers\n</b></div><div><b>\n</b></div><div>&nbsp; &nbsp; Sie stimmen zu, in den persönlichen Texten auf Behältern/Verpackung keine Texte rassistischer, sexueller oder diskriminierender Natur oder Texte die andersartig in Konflikt mit dem Gesetz und/oder guten Sitten stehen, drucken zu lassen. Es ist Web-Steps MEDIA nicht möglich Produkte auf die Einhaltung dieser Bestimmung hin zu kontrollieren.\n</div><div>\n</div><div>&nbsp; &nbsp; Sie sind dafür verantwortlich die Daten, die Sie an uns durchgeben, gründlich auf Richtigkeit und Vollständigkeit zu prüfen. Es ruht keinerlei Verantwortung auf Web-Steps MEDIA, diese Angaben auf Richtigkeit oder Vollständigkeit zu prüfen.\n<span style=\"font-size: 0.95rem;\">&nbsp;&nbsp;</span></div><div>\n</div><div><b>Artikel 11 - Geistiges Eigentum und Urheberrecht\n</b></div><div><b>\n</b></div><div>&nbsp; &nbsp; Vorbehaltlich der übrigen Bestimmungen dieser Allgemeinen Geschäftsbedingungen bewahrt Web-Steps MEDIA &nbsp;sich die Rechte und Befugnisse, die sich für Web-Steps MEDIA &nbsp;dem Urheberrechtsgesetz zufolge eignen.\n</div><div>\n</div><div>&nbsp; &nbsp; Die im Rahmen des Vertrages eventuell durch Web-Steps MEDIA zustande gebrachten Abbildungen, Entwürfe, Zeichnungen, Filme, Software, Texte, Audioaufnahmen, Produkte und andere Materialien oder (elektronische) Bestände bleiben Eigentum von Web-Steps MEDIA , ungeachtet, ob diese dem Auftraggeber oder Dritten zur Verfügung gestellt werden, außer, wenn eine andere Übereinkunft getroffen wurde.\n</div><div>\n</div><div>&nbsp; &nbsp; Alle von Web-Steps MEDIA &nbsp;eventuell bereitgestellten Dokumente, sowie Entwürfe, Abbildungen, Zeichnungen, Filme, Software, Texte, Audioaufnahmen, (elektronische) Bestände, andere Materialien und andere Produkte sind ausschließlich dafür bestimmt, von Ihnen genutzt zu werden und dürfen von ihnen nicht ohne vorherige Zustimmung von Web-Steps MEDIA (Fanshop3000) vervielfältigt, veröffentlicht oder bekannt gemacht werden, außer, wenn es aus der Art der bereitgestellten Dokumente anders hervorgeht.\n</div><div>\n</div><div>Web-Steps MEDIA behält das Recht vor, das eventuell durch die Ausführungen von Arbeitsleistungen gewonnene Wissen für andere Zwecke zu nutzen, insofern hierbei keine vertraulichen Informationen gegenüber Dritten bekannt gemacht werden.\n</div><div>\n</div><div>Alles auf den Webseite ist Eigentum von Web-Steps MEDIA &nbsp;und darf nicht ohne schriftliche Zustimmung von Web-Steps MEDIA vervielfältigt oder veröffentlicht werden.\n</div><div>\n</div><div>Web-Steps MEDIA &nbsp;garantiert nicht, dass die an den Kunden gelieferten Dinge nicht gegen jedwede geistige und/oder industrielle Eigentumsrechte von Dritten verstossen und übernimmt keine Haftung im Falle von jedweden Ansprüchen durch Dritte, die auf der Behauptung basieren, dass mit einer durch Web-Steps MEDIA &nbsp;gelieferten Sache gegen jedwedes Recht von Dritten verstoßen wird.\n</div><div>\n</div><div><b>Artikel 12 - Transportschäden\n</b></div><div><b>\n</b></div><div>Werden Waren mit offensichtlichen Transportschäden angeliefert, so sind diese soweit äusserlich erkennbar vom Lieferanten bestätigen zu lassen.\n</div><div>\n</div><div>Die Versäumung einer Reklamation oder Kontaktaufnahme hat für Ihre gesetzlichen Gewährleistungsrechte keinerlei Konsequenzen. Sie helfen uns aber, Ihnen schnellstmöglich ein neues Produkt zukommen zu lassen oder Sie ggf. zu entschädigen.\n</div><div>\n</div><div><b>Artikel 13 - Gewährleistung\n</b></div><div><b>\n</b></div><div>Die Gewährleistung erfolgt nach den gesetzlichen Bestimmungen.\n</div><div><b>\n</b></div><div><b>Artikel 14 - Haftung\n</b></div><div><b>\n</b></div><div>Wir schließen unsere Haftung für leicht fahrlässige Pflichtverletzungen aus, sofern diese keine vertragswesentlichen Pflichten, Schäden aus der Verletzung des Lebens, des Körpers oder der Gesundheit oder Garantien betreffen oder Ansprüche nach dem Produkthaftungsgesetz berührt sind. Gleiches gilt für Pflichtverletzungen unserer Erfüllungsgehilfen. Sollte der Service vorübergehend nicht verfügbar sein oder von Ihnen hochgeladene Inhalt durch technische Ursachen gelöscht werden, übernehmen wir keine Haftung. Des Weiteren übernehmen wir keine Haftung für mit dem Internet verbundene Risiken; vor allem beim Hochladen von Bildern auf die Website.\n</div><div>\n</div><div><b>Artikel 15 - Schlussbestimmungen\n</b></div><div><b>\n</b></div><div>Sollte eine Bestimmung dieser Allgemeinen Geschäftsbedingungen unwirksam sein, so bleibt der Vertrag im Übrigen wirksam. Anstelle der unwirksamen Bestimmungen gelten die einschlägigen gesetzlichen Vorschriften.\n</div><div>\n</div><div>&nbsp;Es gilt deutsches Recht.\n</div><div>\n</div><div>&nbsp;\n<span style=\"font-size: 0.95rem;\">Datenschutzerklärung&nbsp;</span></div><div>\n</div><div>Kundenzufriedenheit steht bei uns an oberster Stelle. Der Schutz Ihrer Privatsphäre ist uns sehr wichtig. Nachstehend informieren wir Sie ausführlich über den Umgang mit Ihren Daten. Erhebung, Verarbeitung und Nutzung personenbezogener Daten.\n</div><div>\n</div><div>Erhebung, Verarbeitung und Nutzung personenbezogener Daten\n</div><div>Sie können unsere Seite besuchen ohne Angaben zu ihrer Person zu machen. Wir speichern lediglich Zugriffsdaten ohne Personenbezug wie z.B. den Namen Ihres Internet Service Providers oder die Seite von der aus Sie uns besuchen. Diese Daten werden ausschließlich zur Verbesserung unseres Angebots ausgewertet und erlauben keinen Rückschluss auf Ihre Person. Personenbezogene Daten werden nur erhoben, wenn Sie uns diese im Rahmen Ihrer Warenbestellung oder bei Eröffnung eines Kundenkontos oder Registrierung für unseren Newsletter freiwillig mitteilen. Wir verwenden die von Ihnen mitgeteilten Daten ohne Ihre gesonderte Einwilligung ausschließlich zur Erfüllung und Abwicklung Ihrer Bestellung. Mit vollständiger Abwicklung des Vertrages und vollständiger Kaufpreiszahlung werden ihre Daten für die weitere Verwendung gesperrt und nach Ablauf der steuer-und handelsrechtlichen Aufbewahrungsfristen gelöscht, sofern Sie nicht ausdrücklich in die weitere Nutzung ihrer Daten eingewilligt haben. Bei Anmeldung zum Newsletter wird ihre E-Mail-Adresse für eigene Werbezwecke genutzt, bis Sie sich vom Newsletter abmelden. Die Abmeldung ist jederzeit möglich.\n</div><div>\n</div><div>Datensicherheit\n</div><div>Ihre personenbezogenen Daten werden im Bestellprozess verschlüsselt mittels Secure Sockets Layer (SSL)-Software über das Internet übertragen. Kreditkartendaten werden nicht gespeichert, sondern direkt von unseren Payment Dienstleister Paypal erhoben und verarbeitet. Wir sichern unsere Website und sonstigen Systeme durch technische und organisatorische Maßnahmen gegen Verlust, Zerstörung, Zugriff, Veränderung oder Verarbeitung Ihrer Daten durch unbefugte Personen. Der Zugang zu ihrem Kundenkonto ist nur nach Eingabe ihres persönlichen Passwortes möglich. Sie sollten ihre Zugangsinformationen stets vertraulich behandeln und das Browserfenster schließen, wenn Sie die Kommunikation mit uns beendet haben, insbesondere wenn Sie den Computer gemeinsam mit anderen nutzen.\n</div><div>\n</div><div>Widerruf von Einwilligungen\n</div><div>Die nachstehenden Einwilligungen haben Sie ggf. im Verlauf des Bestellprozesses ausdrücklich erteilt. Wir möchten Sie darauf hinweisen, dass Sie Ihre Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen können.\n</div><div>\n</div><div>\n</div><div>Verwendung von Cookies\n</div><div>Auf verschiedenen Seiten verwenden wir Cookies, um den Besuch unserer Website attraktiv zu gestalten und die Nutzung bestimmter Funktion zu ermöglichen. Hierbei handelt es sich um kleine Textdateien, die auf Ihrem Rechner abgelegt werden. Die meisten der von uns verwendeten Cookies werden nach Ende der Browser-Sitzung wieder von Ihrer Festplatte gelöscht (sog. Sitzungscookies). Andere Cookies verbleiben auf Ihrem Rechner und ermöglichen und, Ihren Rechner bei Ihrem nächsten Besuch wieder zu erkennen (sog. dauerhafte Cookies). Diese Cookies dienen der Begrüßung mit Ihrem Benutzernamen und erübrigen Ihnen bei Folgebestellungen die erneute Eingabe ihres Passwortes oder das Ausfüllen von Formularen mit Ihren Daten. Unseren Partnerunternehmen ist es nicht gestattet, über unsere Website personenbezogene Daten mittels Cookies zu erheben, zu verarbeiten oder zu nutzen.\n</div><div>\n</div><div>Verwendung von Google Analytics\n</div><div>Google Analytics ist ein Webanalysedienst der Google Inc., der Cookies verwendet. Web-Steps MEDIA nutzt Google Analytics. Der Cookie erzeugt Informationen über die Nutzung der Webseite durch den Kunden (einschließlich IP-Adresse) und diese werden an einen Google Server in den USA übertragen und dort gespeichert. Google nutzt die Informationen, um die Nutzung der Webseite durch den Kunden auszuwerten, Berichte über die Aktivität der Webseite für das Unternehmen Web-Steps MEDIA zusammenzustellen und andere Dienstleistungen zu erbringen, die mit der Nutzung der Webseite und des Internets in Verbindung stehen.\n</div><div>\n</div><div>Google wird diese Informationen, falls gesetzlich vorgeschrieben oder bei Bearbeitung von Dritten im Auftrag von Google, eventuell an Dritte übertragen.\n</div><div>\n</div><div>Google bringt die Kundendaten keinesfalls mit anderen Daten von Google in Verbindung. Die Installation der Cookies kann durch entsprechende Einstellung in der Browser Software durch den Kunden verhindert werden.\n</div><div>Der Kunde erklärt sich, durch Nutzung der Webseite, mit der Verarbeitung der über ihn erhobenen Daten durch Google in der beschriebenen Art und Weise und zum genannten Zweck, einverstanden.\n</div><div>\n</div><div>Weitergabe personenbezogener Daten\n</div><div>Eine Weitergabe ihrer Daten erfolgt an das mit Ihrer Lieferung beauftragte Versandunternehmen, soweit dies zur Lieferung der Waren notwendig ist. Zur Abwicklung von Zahlungen geben wir Ihre Zahlungsdaten an das mit Ihrer Zahlung beauftragte Kreditinstitut weiter.\n</div><div>Einige Produkte werden nicht von uns selbst hergestellt. Partner von Web-Steps MEDIA (Fanshop3000) übernehmen die Produktion und den Versand. Sie erhalten dafür Daten, die sie zur Ausführung der Bestellung benötigen. Sie sind allerdings nicht befugt diese Daten zu anderen Zwecken zu verwenden. Zu diesen Daten gehören: Vorname, Nachname, Anrede, Postanschrift, Zustellungsadresse.\n</div><div>\n</div><div>Auskunftsrecht\n</div><div>Nach dem Bundesdatenschutzgesetz haben Sie ein Recht auf unentgeltliche Auskunft über ihre gespeicherten Daten sowie ggf. ein Recht auf Berichtigung, Sperrung oder Löschung dieser Daten.\n</div><div>\n</div><div>Batterieverordnung\n</div><div>\n</div><div>Hinweise zur Rückgabe von Batterien gemäß §18 Batteriegesetz:\n</div><div>Im Zusammenhang mit dem Vertrieb von Batterien oder Akkus oder mit der Lieferung von Geräten, die Batterien oder Akkus enthalten, sind wir verpflichtet, Sie gemäß der Batterienverordnung auf Folgendes hinzuweisen: Batterien dürfen nicht in den Hausmüll gegeben werden. Sie sind zur Rückgabe gebrauchter Batterien als Endverbraucher gesetzlich verpflichtet. Sie können Batterien nach Gebrauch in der Verkaufsstelle oder in deren unmittelbarer Nähe (z.B. in kommunalen Sammelstellen oder im Handel) unentgeltlich zurückgeben. Sie können Batterien auch per Post an uns zurücksenden.\n</div><div>\n</div><div>Retouradresse ist die Absenderadresse - sollte diese nicht angegeben sein gilt\n</div><div>\n</div><div><b>&nbsp; &nbsp; &nbsp; Web-Steps MEDIA&nbsp;</b></div><div><b>&nbsp; &nbsp; &nbsp; Weiherbachstrasse 38\n</b></div><div><b>\n</b></div><div><b>&nbsp; &nbsp; &nbsp; 94327 Bogen\n</b></div><div><b>\n</b></div><div><b>&nbsp; &nbsp; &nbsp; Deutschland\n</b></div><div><b>\n</b></div><div>als Retourenadresse.\n</div><div>\n</div><div>\n</div><div>Batterien oder Akkus, die Schadstoffe enthalten, sind mit dem Symbol einer durchkreuzten Mülltonne gekennzeichnet.\n</div><div>\n</div><div>In der Nähe des Mülltonnensymbols befindet sich die chemische Bezeichnung des Schadstoffes. Cd steht für Cadmium, Pb für Blei und Hg für Quecksilber.</div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_cid": "qzUlyoTXDr",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content9-4x"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".content": {
+              "@media (max-width: 767px)": {
+                "text-align": "center",
+                "> div:not(:last-child)": {
+                  "margin-bottom": "2rem"
+                }
+              }
+            },
+            ".media-wrap": {
+              "@media (max-width: 767px)": {
+                "margin-bottom": "1rem"
+              },
+              ".mbr-iconfont-logo": {
+                "font-size": "7.5rem",
+                "color": "#f36"
+              },
+              "img": {
+                "height": "6rem"
+              }
+            },
+            ".footer-lower": {
+              ".copyright": {
+                "@media (max-width: 767px)": {
+                  "margin-bottom": "1rem",
+                  "text-align": "center"
+                }
+              },
+              "hr": {
+                "margin": "1rem 0",
+                "border-color": "#fff",
+                "opacity": ".05"
+              },
+              ".social-list": {
+                "padding-left": "0",
+                "margin-bottom": "0",
+                "list-style": "none",
+                "display": "flex",
+                "flex-wrap": "wrap",
+                "justify-content": "flex-end",
+                "-webkit-justify-content": "flex-end",
+                ".mbr-iconfont-social": {
+                  "font-size": "1.3rem",
+                  "color": "#fff"
+                },
+                ".soc-item": {
+                  "margin": "0 .5rem"
+                },
+                "a": {
+                  "margin": "0",
+                  "opacity": ".5",
+                  "-webkit-transition": ".2s linear",
+                  "transition": ".2s linear",
+                  "&:hover": {
+                    "opacity": "1"
+                  }
+                },
+                "@media (max-width: 767px)": {
+                  "justify-content": "center",
+                  "-webkit-justify-content": "center"
+                }
+              }
+            },
+            ".copyright > p": {
+              "color": "#12ead2"
+            },
+            "H5": {
+              "color": "#12ead2"
+            },
+            "P": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "footer1",
+          "_customHTML": "<section group=\"Footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->  \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showCopyright\" checked>\n        <select title=\"Icons\" name=\"iconsCount\">\n            <option value=\"0\" selected>0</option>\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/jumbotron.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#2e2e2e\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#3C3C3C\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row content text-white\">\n            <div class=\"col-12 col-md-3\">\n                <div class=\"media-wrap\">\n                    <a href=\"index.html#slider1-o\">\n                        <img src=\"@PROJECT_PATH@/assets/images/zuschnitt-1980x901.png\" alt=\"Mobirise\" title>\n                    </a>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"pb-3\">\n                    Addresse</h5>\n                <p class=\"mbr-text\">Web-Steps MEDIA<br>Inh. Peter Winhold<br>Weiherbachstrasse 38 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>94327 Bogen</p>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"pb-3\">Kontakt</h5>\n                <p class=\"mbr-text\">\n                    Email: webstepsinfo@gmail.com\n                    <br>Telefon : +49 (0) 9422 402 5733 &nbsp; WhatsApp&nbsp;: &nbsp; (0) 1575 808 2304</p>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"pb-3\">\n                    Links\n                </h5>\n                <p class=\"mbr-text\"><a href=\"https://search.google.com/test/mobile-friendly?utm_source=mft&utm_medium=redirect&utm_campaign=mft-redirect&hl=de\" target=\"_blank\" class=\"text-warning\">Google Test</a><br><a class=\"text-warning\" href=\"https://www.facebook.com/websteps/\">Facebook</a></p>\n            </div>\n        </div>\n        <div class=\"footer-lower\" mbr-if=\"showCopyright\">\n            <div class=\"media-container-row\">\n                <div class=\"col-sm-12\">\n                    <hr>\n                </div>\n            </div>\n            <div class=\"media-container-row mbr-white\">\n                <div class=\"col-sm-6 copyright\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright > p\">\n                        © Copyright 2017 •&nbsp;<a href=\"index.html#slider1-o\" class=\"text-warning\">Web-Steps MEDIA</a> &nbsp;• &nbsp;All Rights Reserved •&nbsp;<a href=\"#top\" class=\"text-warning\">Impressum</a></p>\n                </div>\n                <div class=\"col-md-6\">\n                    <div class=\"social-list align-right\" mbr-if=\"iconsCount > 0\">\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                            <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                            <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-facebook socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                            <a href=\"https://www.youtube.com/c/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-youtube socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                            <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                            <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-googleplus socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                            <a href=\"https://www.behance.net/Mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-behance socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qzUoDqSq6w",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "footer1-4y"
         }
       ]
     }
